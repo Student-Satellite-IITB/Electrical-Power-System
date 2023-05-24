@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/SlsaMaskTree/R2020a">
+  <slsa.mm.maskTree.MaskTree type="slsa.mm.maskTree.MaskTree" uuid="c7269dd0-99f2-430c-8617-0ac315840a09">
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="d4927f58-6308-4136-97ee-caa54198430c">
+      <blockPath>EPS_MILS/1 Solar Panel module</blockPath>
+      <childrenIds>EPS_MILS:1:1416:199</childrenIds>
+      <childrenIds>EPS_MILS:1:592</childrenIds>
+      <childrenIds>EPS_MILS:1:594</childrenIds>
+      <childrenIds>EPS_MILS:1:598</childrenIds>
+      <childrenIds>EPS_MILS:1:600</childrenIds>
+      <childrenIds>EPS_MILS:1:604</childrenIds>
+      <id>EPS_MILS:1</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="889d3729-e033-4618-bb5d-55b7bb931b87">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="bbd9c277-5ad8-40cb-a7d4-34ad438fcf49">
+          <name>EgRef</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAFYOLbKd7/E/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="5bd9a1bc-f599-4da6-80a0-fb8bfad8463d">
+          <name>Rsh_array5pc</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAaBlUOLfFtA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="286dd380-0db4-45cc-a94f-0bf518c1e741">
+          <name>Tref_K</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAGZmZmZmonJA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="06bc69e5-f430-4dbf-98b7-d2a7e36ca41c">
+          <name>VT_ref</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAGcct3pnjb8/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="bf1e9d22-8100-482f-9457-d9f09403efd5">
+          <name>dEgdT</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAE9xwb5CizG/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="28c92d1e-4554-4a9e-9e87-072f681cbfcf">
+          <name>k1</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAYfZnL+lhY/</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="03151fef-112e-4bb0-837d-091aadade2ac">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Npar</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7d35fcf2-3b9f-479e-bf72-d00a12ec061a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Nser</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8b0bc307-eaea-43d1-96f0-0fbc9daff782">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>PlotType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c045690e-15e6-445e-bcdd-dbd10e762668">
+          <evaluate>true</evaluate>
+          <expression>[ 1360 1000  500  100 ]</expression>
+          <isTunable>true</isTunable>
+          <name>S_vec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aeec5766-68f6-4e0f-8aa4-efdcc625b944">
+          <evaluate>true</evaluate>
+          <expression>[ 45 25  ]</expression>
+          <isTunable>true</isTunable>
+          <name>Temp_C_vec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5b974071-1315-45cb-9880-d84f1dd91a37">
+          <expression>User-defined</expression>
+          <isTunable>true</isTunable>
+          <name>ModuleName</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8cc9e44b-e894-4720-bfd8-00ec0a46d025">
+          <expression>off</expression>
+          <name>PlotWhenSelected</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c0db0172-888a-4311-ac16-6fb592e5e0f7">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Ncell</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0a6b8e31-d27a-4436-8083-b5150a12b029">
+          <evaluate>true</evaluate>
+          <expression>3</expression>
+          <isTunable>true</isTunable>
+          <name>Voc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="787772e2-f781-4ab2-84dc-60d7f8cd69b8">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>Isc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="50352a89-d8a8-417a-ad32-53dbc32c49d2">
+          <evaluate>true</evaluate>
+          <expression>2.5</expression>
+          <isTunable>true</isTunable>
+          <name>Vm</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2fb04d7c-dc1d-4ee4-af78-7d3fd2a0800b">
+          <evaluate>true</evaluate>
+          <expression>1.5</expression>
+          <isTunable>true</isTunable>
+          <name>Im</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8c9fe8a8-bf36-4ee5-83c8-995e2d6a1213">
+          <evaluate>true</evaluate>
+          <expression>-0.36099</expression>
+          <isTunable>true</isTunable>
+          <name>beta_Voc_pc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eac9f133-54cf-4cf7-9e5d-433a65f5c17b">
+          <evaluate>true</evaluate>
+          <expression>0.102</expression>
+          <isTunable>true</isTunable>
+          <name>alpha_Isc_pc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="70dfb42b-89d8-47c5-8cd9-065cff94a7e8">
+          <evaluate>true</evaluate>
+          <expression>-0.01083</expression>
+          <isTunable>true</isTunable>
+          <name>beta_Voc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="30308afa-3b5f-4022-bba2-4b2f51a29e49">
+          <evaluate>true</evaluate>
+          <expression>0.00204</expression>
+          <isTunable>true</isTunable>
+          <name>alpha_Isc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="89fb617d-5676-4d93-b78f-8d2b075849f2">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>RobustModel</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0c6149c4-3d7c-4d67-8de5-6e597dd9fa6c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>BAL</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="878862d7-f81a-4239-8c30-f5c29ab79708">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <isTunable>true</isTunable>
+          <name>Tc</name>
+        </dialogParameters>
+        <initializationCode>Block = gcb;
+[k,k1,q,Tref_C,Tref_K,EgRef,dEgdT,Rsh_array5pc,VT_ref,Tsf,Tf,VIdiodePV,WantBlockChoice] = PVArrayInit(Block, Nser, Npar, Ncell, Rsh, nI, Tfilter, Voc, I0);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,Block,WantBlockChoice);
+sps_rtmsupport(&apos;parametereditingmodes&apos;,Block, [3 6 7 23]);
+</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="c616e30b-60b8-4e1a-8f7e-2acf53d0ad93">
+      <blockPath>EPS_MILS/Current Measurement1</blockPath>
+      <id>EPS_MILS:101</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="82e23e34-c5bb-42a8-ace3-5fcb7cd9f0b1">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="1ac09236-ddbe-4bd7-b963-61b6c380c5ea">
+      <blockPath>EPS_MILS/RCpv1</blockPath>
+      <id>EPS_MILS:102</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="237bc233-e4f5-4a70-89c3-17dcde6e7104">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ab55ef3a-f8c1-4fef-a774-678565246518">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d9d866cd-bbf7-4882-855a-4a3e51542a27">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Resistance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1e03ef9a-848e-4a11-bdd1-fb3708b0d74d">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="33d7463e-916a-4ed1-9797-3030551e7a02">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7135b569-dbb7-4aed-8797-d253b1f201d6">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="88ee7de1-bd8a-4755-8d9e-433b67782ea3">
+          <evaluate>true</evaluate>
+          <expression>5e-3</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="602afe5f-1633-4a29-aede-c636520316b1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="39f897e3-cd21-45d7-add9-edd46a0c5bf0">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2bb42c8e-fbb8-400d-813c-9a3f860c86f1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="d92085d3-7427-4627-b2bb-dfa2934c9554">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)1</blockPath>
+      <childrenIds>EPS_MILS:122:3</childrenIds>
+      <childrenIds>EPS_MILS:122:8</childrenIds>
+      <id>EPS_MILS:122</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="9189d655-a7b9-4559-8def-c0301c45820f">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e987995f-6e9e-4234-b27e-8a0e3a250cca">
+          <evaluate>true</evaluate>
+          <expression>5000</expression>
+          <isTunable>true</isTunable>
+          <name>Fsw</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="365b3370-a1c8-4ac2-a3cb-fa6387d7d106">
+          <evaluate>true</evaluate>
+          <expression>5e-6</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="002a00ea-49a6-4284-a5a5-c7f374ba6b5c">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)1/Compare To Zero</blockPath>
+      <id>EPS_MILS:122:3</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="28c2e9d7-6d71-4eda-944e-262c123df327">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23160e66-17f4-4977-a141-1dbaaa85d00f">
+          <expression>~=</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7454b682-82e3-4221-a71f-141d4b617587">
+          <expression>boolean</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a1d5fbf4-f9a5-4519-b90b-b088fe7f6dc5">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8, 0)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:122</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="299b6f38-aa06-4a0a-9536-e4dc5b6119be">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)1/Sawtooth Generator</blockPath>
+      <id>EPS_MILS:122:8</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="7c5a6630-7109-45e1-b023-8673f5547ec1">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="830d61d8-9627-4bf2-9c83-6fe245b4b4d1">
+          <name>sps</name>
+          <value>AAFJTQAAAAAOAAAAaAIAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQACgAAAAEAAABGAAAAdGltZQAAAAAAAE91dAAAAAAAAABwaGFzZQAAAAAAUGVyaW9kAAAAAEZyZXEAAAAAAABEZWxheQAAAAAAVGltZVN0ZXBaAAAADgAAAEgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAwAAAAEAAAAAAAAACQAAABgAAAAAAAAAAAAAAAZbEL3RNio/LUMc6+I2Kj8OAAAASAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAADAAAAAQAAAAAAAAAJAAAAGAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAC1DHOviNio/DgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAIizQA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAQAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAACAAAAAQAAAAAAAAAJAAAAEAAAAC1DHOviNho/AAAAAAAAAAA=</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2a431294-d9fd-42cc-86cd-7bc34aaca6c0">
+          <evaluate>true</evaluate>
+          <expression>Fsw</expression>
+          <isTunable>true</isTunable>
+          <name>Freq</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="f0a12b2d-b750-4878-9cae-69c8c4b0963f">
+            <name>Fsw</name>
+            <value></value>
+            <workspace>EPS_MILS:122</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fdad67b4-108c-4348-b7e7-6bedbd738763">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4a99fc25-0952-48ad-bb06-dd0b0770976b">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="8afa9ee0-7145-4255-a4a5-7132ef330876">
+            <name>Ts</name>
+            <value></value>
+            <workspace>EPS_MILS:122</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+[WantBlockChoice,Ts,sps] = powericon(&apos;SawtoothGeneratorInit&apos;,block,Phase,Freq,Ts);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:122</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="c891b664-f827-4ba6-9525-f6fb150e0106">
+      <blockPath>EPS_MILS/Voltage Measurement2</blockPath>
+      <id>EPS_MILS:139</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="73901e76-21d6-4eb6-9993-ffe5ab305cff">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="25421e47-da64-495d-a98a-cb6c17dbe51f">
+      <blockPath>EPS_MILS/Battery1</blockPath>
+      <childrenIds>EPS_MILS:144:158:2477</childrenIds>
+      <childrenIds>EPS_MILS:144:158:2478</childrenIds>
+      <childrenIds>EPS_MILS:144:158:2510</childrenIds>
+      <childrenIds>EPS_MILS:144:158:2558</childrenIds>
+      <childrenIds>EPS_MILS:144:158:2559</childrenIds>
+      <childrenIds>EPS_MILS:144:158:2560</childrenIds>
+      <childrenIds>EPS_MILS:144:35</childrenIds>
+      <childrenIds>EPS_MILS:144:36</childrenIds>
+      <childrenIds>EPS_MILS:144:84</childrenIds>
+      <id>EPS_MILS:144</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="1ba93c26-7831-40a7-b98f-c8cb92d24f1a">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="37f2e23e-488e-44cc-86e5-f89bfd39c549">
+          <name>Batt</name>
+          <value>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</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="fab573bf-1e6d-45c2-8e78-dfd0c4b4a3b1">
+          <name>Ts</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAPFo44i1+NQ+</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6367f421-78fc-4180-9d24-b749e8ede6c0">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>BatType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fc393754-1c12-430f-8329-69a29c1358e3">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>ShowTempParam</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c88039e7-5660-4cad-9dda-3ffce1c975f1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>ThermalPreset</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3a0884c0-fb98-48ed-88c3-a83298a57640">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>ShowAgeParam</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="91e99759-2355-4551-bde0-eb509b28bb46">
+          <evaluate>true</evaluate>
+          <expression>7.2</expression>
+          <isTunable>true</isTunable>
+          <name>NomV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c72995c0-7fa8-489e-9390-ad0ba6191929">
+          <evaluate>true</evaluate>
+          <expression>5.4</expression>
+          <isTunable>true</isTunable>
+          <name>NomQ</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="be8cfbef-2872-4176-a6e9-1ec6a0542a12">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>SOC</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a0c129dc-7810-442b-8906-972da87dd6f1">
+          <evaluate>true</evaluate>
+          <expression>30</expression>
+          <isTunable>true</isTunable>
+          <name>Batt_Tr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f48bb1c2-ca8c-4e61-ac23-b49564d1136b">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>PresetModel</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9feff092-e130-4806-bcfb-52013da30507">
+          <evaluate>true</evaluate>
+          <expression>[6.5 13 32.5]</expression>
+          <isTunable>true</isTunable>
+          <name>current</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5ed78f18-57a7-465b-bd56-ef9d3a847c4c">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>Units</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="972026c3-9094-4c6d-a9c8-22dfd5664e7d">
+          <evaluate>true</evaluate>
+          <expression>20</expression>
+          <isTunable>true</isTunable>
+          <name>Tci</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fad6141e-45fb-4627-9981-1e96b5a33ffb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Neq0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a54feb6b-7f72-4d02-834a-e19c3888c7d1">
+          <evaluate>true</evaluate>
+          <expression>1e6</expression>
+          <isTunable>true</isTunable>
+          <name>Tsim</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d67491f8-715c-4cad-b8c0-4a240edda502">
+          <evaluate>true</evaluate>
+          <expression>25</expression>
+          <isTunable>true</isTunable>
+          <name>Ta1</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0f4884a8-3f68-4410-9f33-e8616502c8a1">
+          <evaluate>true</evaluate>
+          <expression>5.4*0.9</expression>
+          <isTunable>true</isTunable>
+          <name>Qeol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5e48160f-8112-459f-8cbf-3985cfa49257">
+          <evaluate>true</evaluate>
+          <expression>0.013333*1.2</expression>
+          <isTunable>true</isTunable>
+          <name>Reol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f6174769-079d-4ec4-aa9f-2fdc14c86c2b">
+          <evaluate>true</evaluate>
+          <expression>[2.3478, 3]</expression>
+          <isTunable>true</isTunable>
+          <name>Char_age</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a2f9492a-1c70-4095-857f-b5d64bd9364b">
+          <evaluate>true</evaluate>
+          <expression>[2.3478, 10]</expression>
+          <isTunable>true</isTunable>
+          <name>Dis_age</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="36d0b544-7b30-4fad-9927-9e2539eae93a">
+          <evaluate>true</evaluate>
+          <expression>1500</expression>
+          <isTunable>true</isTunable>
+          <name>N1</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2d4f67d8-97db-4505-a8cf-143022202ba3">
+          <evaluate>true</evaluate>
+          <expression>10500</expression>
+          <isTunable>true</isTunable>
+          <name>N2</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="689dffed-8514-428f-ac21-f2dd5f86da73">
+          <evaluate>true</evaluate>
+          <expression>1000</expression>
+          <isTunable>true</isTunable>
+          <name>N3</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d6ce3578-2e2c-4788-867b-8d92f0f9054c">
+          <evaluate>true</evaluate>
+          <expression>1400</expression>
+          <isTunable>true</isTunable>
+          <name>N4</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9f408708-bb05-4c81-865f-4dfee44d32a3">
+          <evaluate>true</evaluate>
+          <expression>45</expression>
+          <isTunable>true</isTunable>
+          <name>Ta2</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9f4066c5-0339-4c61-bb9d-a64f76182096">
+          <evaluate>true</evaluate>
+          <expression>950</expression>
+          <isTunable>true</isTunable>
+          <name>N5</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+BatteryCback(block,3)
+[Batt BT, WantBlockChoice, Ts] = BatteryParam(NomV,NomQ,MaxQ,MinV,FullV,Dis_rate,R,Normal_OP,expZone,block,0);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+BatteryCback(block,1);
+</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3a1be9e8-497d-4ac8-b9f9-876ffcdd2da8">
+      <blockPath>EPS_MILS/Battery1/Model/Compare To Zero</blockPath>
+      <id>EPS_MILS:144:158:2477</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="196aa441-c892-40f4-875b-689168238adc">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d67f1f09-c48e-4107-ad06-7abc901c29af">
+          <expression>&gt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="71412d1c-75cb-43cc-9795-ae9fae3ea213">
+          <expression>uint8</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8ceb1de5-419f-4792-80e7-924ff2f8ff4a">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8, 0)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="bec8db2f-3a16-445a-8970-6fc81eb80ea3">
+      <blockPath>EPS_MILS/Battery1/Model/Compare To Zero2</blockPath>
+      <id>EPS_MILS:144:158:2478</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="2aefd043-4e1e-48b5-95db-dca60e84f11d">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="37054e90-c11b-4c55-8557-8c45ad623291">
+          <expression>&lt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="41e73811-2600-4af4-ada4-342fe8f8a89b">
+          <expression>uint8</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="35181fbc-f34e-461d-9a1d-2a2618a90939">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8, 0)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="8b971541-dbcc-4f06-ab49-18722767a011">
+      <blockPath>EPS_MILS/Battery1/Model/Exp/Compare To Zero2</blockPath>
+      <id>EPS_MILS:144:158:2510</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="4458b94a-65da-42af-923d-451c0c024bb8">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c425f13c-0265-4cfc-befb-adb53527ed9b">
+          <expression>&lt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="65290006-ee23-48a5-8307-a233e357fcff">
+          <expression>uint8</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fb06f86a-544e-4f6a-a1cd-470d1213e464">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8, 0)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="52f6c9dc-cf35-413f-acf4-e6e0fe159c70">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic</blockPath>
+      <childrenIds>EPS_MILS:144:158:2558:5</childrenIds>
+      <id>EPS_MILS:144:158:2558</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="060e7e56-e331-4d5f-a5cd-1440e6958226">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eedaaf99-4dc2-45e6-91ec-6051d3bcfff2">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7b12b3b3-df1c-402d-9a9f-e4f640683464">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="359436e2-8895-4fa8-b311-3140f28c8480">
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f8ae2264-7d63-417c-a56b-778f6f7a9ca9">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6f1d6dfc-3c6e-42ab-bc7d-0f4afdb6384a">
+          <expression>sfix(16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b1dd1493-6627-4510-a1dd-7a18cebd7cbe">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0c43382a-ef6c-47db-b425-74ee5ce1379a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3fbd215c-449f-45e3-977b-3a846b04a700">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2792f3e4-0aa0-4273-821d-6f62bbfb9fcf">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>slsaturationdynamic(gcbh, OutDataTypeStr, OutDataType, RndMeth, DoSatur, OutScaling, OutMin, OutMax);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ccdc1530-8485-450c-93e2-a7682b73b999">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic/Data Type Propagation</blockPath>
+      <id>EPS_MILS:144:158:2558:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="593b28bf-28d6-448e-874e-3cedb4932b1b">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="5fb88ad2-6199-48bb-b07f-b5de0a254746">
+          <name>DblOver</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aafae68b-2b7a-42f7-b7ca-42262ceda3e4">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5b3ed574-0127-4a48-a42a-e0529f667fc3">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6495062a-db86-4c33-9266-e08f045a046a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2ce9195b-066c-4990-a5cd-5e919b294976">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="99295ae5-9a25-4c9a-bdfd-f721cd5821c1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e707fdbd-5a91-4e0b-a4f7-2eb634eacdfa">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d0d7a7df-0552-475f-ae54-bc5c60f9ebde">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="edcc9782-3a7d-49e6-8b91-9c472ff8f64e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="44f09a2d-2b82-425b-9ffc-6fa5e258967f">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4367e3f8-d1d9-4fae-b4ba-bda20d93eff4">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4cde923a-1df9-438b-97fb-96ea591165b7">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1f778ca1-e0c4-4083-b924-c8143e1c2ef5">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b2f7b501-a878-449d-9980-fecb6a83d58c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="084bbb85-8dd6-457f-8234-b6b33a62318a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3b58f6f7-1f2c-4473-9760-55dd6e87867e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="50e77a30-9abe-4afe-bc9e-7728a3890ade">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="39f3430e-3f45-4e8f-bdbf-2bc6a2b8a768">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="686e9d3c-23e2-45a0-811f-e215d9d18dee">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:144:158:2558</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="9b49bf29-8a38-4787-b9b8-8e568c56feee">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic1</blockPath>
+      <childrenIds>EPS_MILS:144:158:2559:5</childrenIds>
+      <id>EPS_MILS:144:158:2559</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="a4ad7fef-3de1-4634-901a-c772be1dbe70">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="14c6cec7-e5ee-4882-b804-5abde0c69fb8">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7d4c67dd-0404-4270-aab3-0d1396a66070">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b9948346-abb0-498f-9748-1fc7b5b58398">
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="43a2cdb0-d1b5-4e50-b0a2-617af4df1e11">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8d756e14-0a1e-4ede-88dc-d2e0d202858e">
+          <expression>sfix(16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bacf23b7-b6a2-4dc3-9b55-075c649ff44b">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="32359c90-82b2-4a2d-bee1-221127e2c1cc">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cc80eb32-2d02-409a-b2c2-3a901cefe869">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0e1918d2-b41b-4bdb-8bb0-259234a4cd53">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>slsaturationdynamic(gcbh, OutDataTypeStr, OutDataType, RndMeth, DoSatur, OutScaling, OutMin, OutMax);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ce2a8030-ee6e-4783-a6d6-83e81147d378">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic1/Data Type Propagation</blockPath>
+      <id>EPS_MILS:144:158:2559:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="dbf012b3-650a-4d92-b016-555184eb92d6">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="2c87b5e2-a5a2-42b5-9c54-1fec4c900d69">
+          <name>DblOver</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5be4c76c-f19a-48fc-9e42-a042e769217d">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8c5a3fb1-5ab2-4d15-88a9-71e5a57a603e">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9d372dfa-09a7-4dd0-9b25-b90f35b2152e">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f71e3ad5-dd19-4c79-8c96-3bdff9062de2">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fe464f8b-13f1-480e-8b73-33360b1d3f02">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bb13d3e6-f622-44ce-8158-c5deb0ae1c46">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="69b5d9d4-265d-4874-b78f-e17f232721cc">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="204f0f13-b4da-4458-9867-b90a24cced5d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f360e14c-9c40-40fa-8eea-f42bdc372676">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a799714c-d995-49a9-ab6b-a4e4dcc3e138">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="52644050-5529-4341-975a-4df200942e61">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f9a913a6-94ca-45d3-8416-a035a6289503">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d3cabb49-575d-4ec8-b8a2-c26c302ccf47">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="637afa8f-2a84-4fde-84d2-465c8e781e63">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4ea2ecbf-e6a5-4df5-b38d-fb20cdab31de">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="14d16a2c-a9c7-4710-b311-0caf318c4f69">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="be8ec6f6-a292-4884-91bf-7c3e73e3442f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="379d9fc0-10ab-4d43-9032-ee25381b817d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:144:158:2559</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="4673646c-7b0a-444a-b479-a5a6726a9623">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic2</blockPath>
+      <childrenIds>EPS_MILS:144:158:2560:5</childrenIds>
+      <id>EPS_MILS:144:158:2560</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="a0b1dddd-789b-44e0-be69-abde1fa5e568">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b474a07b-584b-4108-9399-2ea37e44d9c8">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="02a2715e-7354-435b-a805-7a3218d4819c">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="06d50f76-537e-45f2-ac33-512e201d5bd1">
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0e65c3ea-ec98-46c8-ab93-014c5cf9922d">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="501619ea-ff77-4ba5-9422-47ee65e61d10">
+          <expression>sfix(16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1465ac21-b45a-4086-8131-176e6ed99c88">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4eea22d8-ecc7-4cb6-a1ff-93a391548e12">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5c74ebb7-ec8b-4544-b93f-b5596a9e45ac">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7df6a08c-c921-47bd-b6fe-15347b5c16b8">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>slsaturationdynamic(gcbh, OutDataTypeStr, OutDataType, RndMeth, DoSatur, OutScaling, OutMin, OutMax);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="4f6d08f0-3fe7-4bbc-9a00-5bcb08fbef4e">
+      <blockPath>EPS_MILS/Battery1/Model/Saturation Dynamic2/Data Type Propagation</blockPath>
+      <id>EPS_MILS:144:158:2560:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="43845b7a-dec3-4af8-a0db-c4ef50fdd6b2">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="30dbdcb8-94df-418c-96f7-28c2856f27e0">
+          <name>DblOver</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fe6c6768-716d-4538-88ac-9f8b85882c6e">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4bab0baa-2b26-462b-8da7-8528a9fd41d9">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d7db633a-27b6-4ba2-ace4-94bfb73b7f98">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7247260d-0a71-4de1-8bce-830bb135e268">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9233486f-c65e-4985-9f7a-2786a9e8d6ba">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b4c75e23-51d1-4e4e-91e0-7bc25bec1e85">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="20400a83-06ba-4dc7-9e0e-4f3fb739b749">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0781bc82-5ae7-4c75-a7cf-1610c8986fc9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="611b047e-5b11-4a37-ac52-cd9c3e1d760e">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1d1ebc3e-9703-4237-bbaa-410ed7937a8b">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ac43d836-1ab8-4204-ac23-b93b2b7261ea">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7647931e-5115-4ec6-a5c9-2d2597bbdbbc">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a8a113a0-21a3-40b7-a669-43b86e3c5eaf">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a7c68698-8413-4347-abf8-8fd7b5535bd4">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="32426cb6-cc75-43fa-967f-e44391a4a100">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="895fb0a4-1140-44d5-8fd0-1adff0d1139a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="00dc54ff-b8ad-45a0-9724-65c77904e4db">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="780ca820-952b-4840-a090-a833d37eb41c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:144:158:2560</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="46f5114f-052e-4e19-8f5f-0fe134767a40">
+      <blockPath>EPS_MILS/Battery1/Controlled Voltage Source</blockPath>
+      <id>EPS_MILS:144:35</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="184c6205-a59a-4f28-85a1-33813fe5124e">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="65bc21cf-a318-44d7-a87e-76064c0e55a3">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="40262aea-fac2-4b9b-8b04-608d13ea6665">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b94d563b-6ce0-4396-81fb-92f5862fb523">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="72c71775-5b6a-45da-81cb-33ae827bb0da">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4f8a17da-9495-493d-b145-691bd27b5351">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ffbd3773-542d-4416-ae19-d0e10a1385d2">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ff72d0a1-e0b4-4379-a424-4e0f2a52097f">
+      <blockPath>EPS_MILS/Battery1/Current Measurement</blockPath>
+      <id>EPS_MILS:144:36</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="c3665c1f-6ae7-413a-b405-d9fb5a7aee51">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="667f0659-ccb9-4ab7-9fde-f20a6311159b">
+      <blockPath>EPS_MILS/Battery1/Series RLC Branch</blockPath>
+      <id>EPS_MILS:144:84</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="7d495911-6496-4e8b-9de6-f61baa6481c8">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3a3fa048-25f7-47b9-b5a8-559feeba731e">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c93e69b6-17cc-497f-9646-d7e2dc02edab">
+          <evaluate>true</evaluate>
+          <expression>Batt.R</expression>
+          <name>Resistance</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="4ab168f0-aad2-47da-adb5-9eca13c0d697">
+            <name>Batt</name>
+            <value></value>
+            <workspace>EPS_MILS:144</workspace>
+          </referencedVariables>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="27ceb51c-8fe0-4955-bb22-25675960df83">
+            <name>R</name>
+            <value></value>
+            <workspace>EPS_MILS:144</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2b323923-b2da-424e-92a7-44134c5d3ef0">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23306b09-6146-4b32-9ca9-34e8b749c735">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="07834ef1-9efe-4e1a-8873-c2541cc5173e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23567b1d-a947-4896-9b55-0d2fba8c5b02">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="497f742c-07e5-4a84-bb37-0567a3b867fb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1bc68480-2db6-4219-893e-d33734830a98">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b37fbdce-1c0f-42be-98d8-38a6918bcda3">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:144</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="e0967924-4e05-48d7-88ac-49db0a75eaec">
+      <blockPath>EPS_MILS/RCpv</blockPath>
+      <id>EPS_MILS:15</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="1d65a663-d791-4528-a9ad-eaf7d5396a54">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9fd0ab0b-1a36-4103-88c1-8f393fdd604d">
+          <expression>RC</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2a409e6c-36c0-448c-b829-1712ad412779">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <name>Resistance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b9c22a1c-2213-4c70-9898-2c31fdc56b68">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="073ad484-f640-4917-9114-5f6c1ffa055c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="79e9afa7-83a3-4b02-b04e-c82878172e7a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c0cfabf8-d2de-47b2-8de6-206744354b3b">
+          <evaluate>true</evaluate>
+          <expression>5e-3</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="af334af2-4e96-4fb7-88a3-2a9173cb4178">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fbdc9280-6a24-4a9f-8f8f-ee23d535c2ea">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="03fefe4a-1780-4b6d-98a2-3f7948b6d47f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="13bdf081-6fcf-4be5-8810-15202078d695">
+      <blockPath>EPS_MILS/IGBT//Diode</blockPath>
+      <id>EPS_MILS:16</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="60f1e449-a578-4d70-8423-4c5d8f88d8b2">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8f50fb0-b87f-4097-86e7-1ecb8213edf9">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Ron</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0a24a167-7da5-4ed3-a677-764fca4ed93a">
+          <evaluate>true</evaluate>
+          <expression>1e5</expression>
+          <name>Rs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f50ebbee-d30f-4cba-bc5e-61e12e30ba11">
+          <evaluate>true</evaluate>
+          <expression>inf</expression>
+          <name>Cs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="72210542-2f2d-48b6-bb70-a65026f2c0bb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+[WantBlockChoice,Ts,X,Y,Ron] = powericon(&apos;SwitchesInit&apos;,&apos;IGBT/Diode&apos;,block,Rs,Cs,Ron);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+Vf = 0;</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="62693a6c-3095-4ba4-9662-0d25cc284361">
+      <blockPath>EPS_MILS/RC1</blockPath>
+      <id>EPS_MILS:17</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="92109d2e-9f91-44a3-9d8c-04807498c6f7">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eb709227-ca26-4f1c-942f-d07ad75e75bb">
+          <expression>L</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="03d567d6-c4a3-449b-a61f-0082a93475d0">
+          <evaluate>true</evaluate>
+          <expression>0.1</expression>
+          <name>Resistance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="92e27f8e-e905-44ad-98b6-86abe8b40cf3">
+          <evaluate>true</evaluate>
+          <expression>5e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a2cdae4e-7090-4922-a91a-4e7d633141f9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0ba09011-2881-47a5-bd89-06c5e5393864">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f5826d64-1307-4066-9d4b-6a7018b611ac">
+          <evaluate>true</evaluate>
+          <expression>5e+3</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8bca8265-731a-4c6e-b496-9af718a055a0">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="34ee356d-c01a-4ee4-ac66-c8311d911a5c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7b8e1303-a4e7-4c93-9f64-7c7ac853b201">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="e2b43733-c611-4a25-8c47-4aa6396bdc27">
+      <blockPath>EPS_MILS/1 Solar Panel module/Diode Rsh/Id+IRsh</blockPath>
+      <id>EPS_MILS:1:1416:199</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="b3ce916b-84ff-430b-ab14-6bba365ad56a">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9e4d1f84-004b-4996-a15c-40bbb68a4527">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="feb4533e-8eaf-44b3-8662-6d14bf0b4ba0">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a889315b-2aee-42cf-86d9-07fdec4aaa3a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="18b62c34-8e4e-4970-b5a9-0cd729a8b8a5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="949f32c5-03f7-49de-8604-c826723877b4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c8ccf83b-b852-4afc-ab2c-74d3517b8a09">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="42154476-1fe5-4bcb-8a2a-1bf15dc6c971">
+      <blockPath>EPS_MILS/1 Solar Panel module/IL</blockPath>
+      <id>EPS_MILS:1:592</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="fca752a1-c971-490d-ab76-1185c5b0dc9f">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5bca8ef8-a7bc-42ff-b05e-2299ea8eee3f">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c2720169-f7c0-4dfe-a426-469e5cb1b135">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="32be9460-e683-44be-a51f-a748e1d844d1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ae4a0959-70de-44fc-a656-a8dfc7474a63">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="54550f5f-ba4c-4c79-9834-5e495e29f278">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="112ebfd7-7918-4adf-9404-fb8ee9d67dd9">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="d0b181e2-c6e0-483d-8233-97a2717dc972">
+      <blockPath>EPS_MILS/1 Solar Panel module/I_PV</blockPath>
+      <id>EPS_MILS:1:594</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="aa92ff99-09bf-4e00-b34d-b1224759a211">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="16b9236e-f880-4845-bdb3-472e474c5a1b">
+      <blockPath>EPS_MILS/1 Solar Panel module/Rs_array</blockPath>
+      <id>EPS_MILS:1:598</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="5a2b5262-1f3f-440f-8af5-1b1096a5da45">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e2090aa7-a7ed-46b4-a55a-d5faada66653">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e7e4cce7-4779-4f84-a019-3fcbf79c5fa8">
+          <evaluate>true</evaluate>
+          <expression>Rs*Nser/Npar</expression>
+          <name>Resistance</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="21394294-f797-492a-98ae-7d762c0362af">
+            <name>Rs</name>
+            <value></value>
+            <workspace>EPS_MILS:1</workspace>
+          </referencedVariables>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="24bc39da-f81e-410b-a21e-39c8c851f119">
+            <name>Nser</name>
+            <value></value>
+            <workspace>EPS_MILS:1</workspace>
+          </referencedVariables>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="e2876ab8-9590-4164-bb44-a2ac88e0a248">
+            <name>Npar</name>
+            <value></value>
+            <workspace>EPS_MILS:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ab263bac-b914-4c1b-9aa0-29bf697d95ad">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1aecaf20-716b-47b6-b280-cbccfab0d919">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e60cb1a3-1809-4528-b447-83b6bb705881">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b6a687ce-5df0-438f-acde-63530b9254b1">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6e29d49a-fe99-42c5-8cf6-98cb3f3e171c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="68098bed-bb7f-47c8-9c50-1f2d5cbe12fa">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7a636aa0-ad40-4d18-8516-502ce3acbc99">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="63f312fe-eb48-45de-b8bc-dc4b9df1c1ae">
+      <blockPath>EPS_MILS/1 Solar Panel module/Rsh_5%</blockPath>
+      <id>EPS_MILS:1:600</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="85cd3260-419d-4565-bed9-13568df965cc">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="93e189c7-ab82-41db-9732-43dc813f3277">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4e3ebb13-1e02-4ea3-ae46-c99f52f95107">
+          <evaluate>true</evaluate>
+          <expression>Rsh_array5pc</expression>
+          <name>Resistance</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="8f1f55c0-b7e9-4468-8bb1-45ed5c03d38f">
+            <name>Rsh_array5pc</name>
+            <value></value>
+            <workspace>EPS_MILS:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a0ab2164-bd62-4d7f-ac83-45052f48657c">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2ff29a7b-bb0c-4960-9440-ab258d314c14">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4f533f1f-7cbe-4f88-8ac7-15c981d7285f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f8e7d34e-24ff-41aa-8307-558b22cc2a48">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="60f7d8ae-74fe-4a23-af01-fc89a3648f98">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="687e8ef5-5766-4467-9892-ac6d5bfbae78">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dd56fd37-ea89-4a2c-b59e-b3b64e5dd45f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ed03689c-9e8d-4e41-b1c7-c22f1b63549a">
+      <blockPath>EPS_MILS/1 Solar Panel module/V_PV</blockPath>
+      <id>EPS_MILS:1:604</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="93a78052-73bc-449e-a5d4-5a62530a6dba">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3ba2ee82-0825-4da6-add5-a211fb4acd00">
+      <blockPath>EPS_MILS/Diode</blockPath>
+      <id>EPS_MILS:20</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="ec1e7cb1-0f81-42a1-b3b2-3682427185b6">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f7dff758-e70c-48c6-98d1-296389242a6f">
+          <evaluate>true</evaluate>
+          <expression>0.001 </expression>
+          <name>Ron</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cf28658f-48b9-4236-a846-8f5deb3ba059">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Lon</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="190a45c7-a0db-4229-af25-3b205c51891b">
+          <evaluate>true</evaluate>
+          <expression>0.8</expression>
+          <name>Vf</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="92dcfe81-fe45-48ba-bec7-e94f986528f5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>UseSnubber</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="53e3f8aa-4bf9-4e72-a75d-3ac31769fe11">
+          <evaluate>true</evaluate>
+          <expression>500</expression>
+          <name>Rs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="65d1fde3-ef69-4f0d-8822-c4b4c9cf7071">
+          <evaluate>true</evaluate>
+          <expression>250e-9</expression>
+          <name>Cs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="afc8e947-0ca1-40e9-8669-11ecb26e2899">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+[WantBlockChoice,Ts,X,Y,Ron,Vf] = powericon(&apos;SwitchesInit&apos;,&apos;Diode&apos;,block,Rs,Cs,Ron,Vf);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+
+
+
+
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="001b4a87-34b6-4a67-a6e6-2b46ec6f3f5a">
+      <blockPath>EPS_MILS/RC_BoostConverter</blockPath>
+      <id>EPS_MILS:21</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="cd067474-11bd-42fd-ba7d-e20e5e97da06">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f3915750-3486-4da0-a9bb-77aa73730ae8">
+          <expression>C</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dc1d1d4c-8a8f-4a2b-835d-594ff20613fa">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <name>Resistance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8f63717a-2311-43b4-acaa-5679cfbe66b9">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f2eeef25-f0eb-435d-b650-228e5a57ef4e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="760af4d4-d1f2-45a4-9cf0-fdb1b1a717fe">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ae910f5d-556e-4fb3-abef-ad2fe5f3e654">
+          <evaluate>true</evaluate>
+          <expression>3300e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="27997f81-998c-44e6-a5f3-8cd347ef1c14">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="11ac4d2f-5f54-4986-a85f-d7a68f6212b9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c7ca25fb-ab7b-4884-a6d7-28ed76beb016">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="0fd6eae9-47e2-4341-9ae3-6070130563c2">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)</blockPath>
+      <childrenIds>EPS_MILS:45:3</childrenIds>
+      <childrenIds>EPS_MILS:45:8</childrenIds>
+      <id>EPS_MILS:45</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="258e0206-ca73-452a-b644-c2d411036102">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6457398a-133d-419a-a2ab-0ea859af3ccb">
+          <evaluate>true</evaluate>
+          <expression>5000</expression>
+          <isTunable>true</isTunable>
+          <name>Fsw</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="42baed0b-0369-47d4-aec4-d8cc053d04df">
+          <evaluate>true</evaluate>
+          <expression>5e-6</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ca589c54-ae77-43fd-bd28-335dd8f31248">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)/Compare To Zero</blockPath>
+      <id>EPS_MILS:45:3</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="3930e702-7715-4a11-842b-3f37065d7d10">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4e90080a-0deb-4425-9015-366cc93bd6f1">
+          <expression>~=</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ccf3837d-252b-48d3-be10-0234ce54578e">
+          <expression>boolean</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5e5355a6-20a8-4504-a4f5-998da397f032">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8, 0)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:45</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="311f07fd-ddce-44dd-8e4c-e90896dd77cf">
+      <blockPath>EPS_MILS/PWM Generator (DC-DC)/Sawtooth Generator</blockPath>
+      <id>EPS_MILS:45:8</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="d13c6847-edb6-4b58-9bf9-baa2e637d2f7">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="0ffdf850-f3d8-4c26-815f-b1080b369090">
+          <name>sps</name>
+          <value>AAFJTQAAAAAOAAAAaAIAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQACgAAAAEAAABGAAAAdGltZQAAAAAAAE91dAAAAAAAAABwaGFzZQAAAAAAUGVyaW9kAAAAAEZyZXEAAAAAAABEZWxheQAAAAAAVGltZVN0ZXBaAAAADgAAAEgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAwAAAAEAAAAAAAAACQAAABgAAAAAAAAAAAAAAAZbEL3RNio/LUMc6+I2Kj8OAAAASAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAADAAAAAQAAAAAAAAAJAAAAGAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAC1DHOviNio/DgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAIizQA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAQAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAACAAAAAQAAAAAAAAAJAAAAEAAAAC1DHOviNho/AAAAAAAAAAA=</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="285c9395-a1ce-4884-bf20-1cf970f7e898">
+          <evaluate>true</evaluate>
+          <expression>Fsw</expression>
+          <isTunable>true</isTunable>
+          <name>Freq</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="bb301cc2-42c1-4032-8bb1-5bb134a9a7eb">
+            <name>Fsw</name>
+            <value></value>
+            <workspace>EPS_MILS:45</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ca8a259a-0051-4244-ad5f-9175b18ac638">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="098ac50b-fd8e-498d-8125-3dffe212fb92">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="45956969-c86e-480d-9ee1-feceefaf02cb">
+            <name>Ts</name>
+            <value></value>
+            <workspace>EPS_MILS:45</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+[WantBlockChoice,Ts,sps] = powericon(&apos;SawtoothGeneratorInit&apos;,block,Phase,Freq,Ts);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:45</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="105c2b06-ab16-4175-92e4-da29ba32bc1a">
+      <blockPath>EPS_MILS/powergui</blockPath>
+      <childrenIds>EPS_MILS:6:444</childrenIds>
+      <childrenIds>EPS_MILS:6:458</childrenIds>
+      <id>EPS_MILS:6</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="c146f488-e708-491b-957f-31affe652d0e">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23a724a6-65e3-4033-8f19-38f4c83766db">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>SimulationMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="66b287ae-0fae-4448-8ee0-1b75ab996f38">
+          <evaluate>true</evaluate>
+          <expression>5e-6</expression>
+          <isTunable>true</isTunable>
+          <name>SampleTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c9610566-60c4-43e8-9044-d4aa1c7a92da">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="24d81cb0-031e-45ba-9b47-ac465638198b">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <isTunable>true</isTunable>
+          <name>Iterations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a1d23db6-4d71-4a84-8448-116c48221bb6">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindice</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6c3f1f24-3a2e-4f5d-9f36-e66e5dd95891">
+          <evaluate>true</evaluate>
+          <expression>100e6</expression>
+          <isTunable>true</isTunable>
+          <name>Pbase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c91a09d9-8a68-4990-abd6-73a489723fe3">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>ErrMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3aea5a0b-41f2-44f2-aa7e-66f589ac8b85">
+          <expression>kV</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="988297a6-c74f-461d-a05c-36056dad7421">
+          <expression>MW</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsW</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="13088d72-9e04-40b1-a16d-a9cf379ebd9b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>buscounter</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d2aa3645-ed40-478b-a9ee-9938fd970438">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FunctionMessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eab12a6e-8c75-44f4-823f-80141a035e21">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>echomessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b02ca67d-66d8-4fbb-b009-180f1f3a6cb5">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>EnableUseOfTLC</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a331fa47-120f-4415-bd39-f51043472be4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>CurrentSourceSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="81ebc1b7-7fbf-43e7-8c57-701785973ad0">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableSnubberDevices</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2acdcbbc-3c30-4ded-ba57-49d4cbd10854">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableRonSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3e4740c4-a22a-46b6-8530-6da6b7d41b53">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableVfSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d894dd2f-6d21-4859-a7b1-3ed6947c417d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayEquations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f55f8ef9-4177-4434-9846-d80160dfdbad">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>AutomaticDiscreteSolvers</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8b67838-389b-4583-85fa-0b7a794289a2">
+          <expression>Tustin/Backward Euler (TBE)</expression>
+          <isTunable>true</isTunable>
+          <name>SolverType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fd9b54cd-eebd-4551-b8f0-b8a156408c91">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Interpol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f9c84f21-0fd8-43c6-98e0-af4ac06dc228">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ExternalGateDelay</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cbba3ae4-3f36-4505-bbee-ae08a6b28542">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>methode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="44d9ae21-0a93-4ffe-afb4-6a1f57751504">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6dcd9ab0-f7be-49a6-a213-96544d9a8d5b">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>x0status</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b27468c2-5a25-4ac7-ba63-adc02d5f69ff">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>SPID</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ac59c7a5-946d-4bd0-b778-a18d6e86b362">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SwTol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a9d2d244-dc3e-4223-8486-0b9f28765eaa">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>HookPort</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7b00d19b-6488-42c6-9425-aae78f5fee3e">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>NonlinearTolerance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f743aa37-d0cd-4008-b03c-d0110b47b097">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>nMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9c3d9718-cae1-4bee-9376-4d623eb6e33e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ContinueOnMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6786b3f9-5500-4c9b-9ebb-94d092fd0837">
+          <expression>warning</expression>
+          <isTunable>true</isTunable>
+          <name>RestoreLinks</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9be0b9ac-986f-44a9-835e-4b64920e7a65">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>ResistiveCurrentMeasurement</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="748b2a13-14c2-4cc8-a7b9-6c1a00a218cf">
+          <evaluate>true</evaluate>
+          <expression>[0:2:500]</expression>
+          <isTunable>true</isTunable>
+          <name>Frange</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4d7ba276-65bf-4537-bcbf-5da18a8cd376">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Ylog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="114c2983-8f41-445a-b770-c0e4f719fbbf">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Xlog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="26aa6f2b-6a0f-458d-a12b-e711422e921a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ShowGrid</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="13f82e61-fc12-452d-ba7a-8874d632ddbb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>save</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="818f79cf-1abe-422b-b694-94c272ffee2b">
+          <expression>ZData</expression>
+          <isTunable>true</isTunable>
+          <name>variable</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8585045c-0caf-433c-aaaf-1b677b2c2407">
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>structure</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8dcb3f4-2185-4233-859a-6eb0f1e3d13b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ZoomFFT</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1213ef4d-01d7-4388-9f18-4ef094eb5676">
+          <evaluate>true</evaluate>
+          <expression>0.0</expression>
+          <isTunable>true</isTunable>
+          <name>StartTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d373c5a9-6c61-42e4-ac5c-8517731c7f20">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>cycles</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="532fe1da-b0b0-40a4-874f-9e0bb1df2d42">
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayStyle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d2c37606-4ca4-42f5-b1a5-a5b8bac0e517">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>fundamental</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3036b847-bff1-48ba-8fd6-be92f0966d97">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FreqAxis</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0a1b63c6-5dbb-4544-acf9-053a5b348cf9">
+          <evaluate>true</evaluate>
+          <expression>1000</expression>
+          <isTunable>true</isTunable>
+          <name>MaxFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="14fccf49-c643-4f1a-a6a8-a80f69987e5c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindicesteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="75ef35e9-333c-48a1-9d45-0e7e837b1bf9">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>RmsSteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a73368c5-8ca0-4ad5-a51d-4a822510eab1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>display</name>
+        </dialogParameters>
+        <initializationCode>dispMessage = &apos;&apos;;
+dispMessage = powergui(&apos;MaskInitialization&apos;,gcb,SimulationMode,SampleTime);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="b844de82-ed09-478f-914f-a6f45aca957e">
+      <blockPath>EPS_MILS/powergui/EquivalentModel1</blockPath>
+      <id>EPS_MILS:6:444</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="e00fcba6-9ca1-4ce8-9f07-72b1dcaa8ec7">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="91bc2563-e3ff-4ab2-851b-19af474ef286">
+          <name>S</name>
+          <value>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</value>
+        </cachedVariables>
+        <initializationCode>S  = GetDataForEquivalentModel(&apos;Discrete&apos;,gcbh);</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:6</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3f7f930d-dc8f-4065-8c20-500676d472c4">
+      <blockPath>EPS_MILS/powergui/EquivalentModel2</blockPath>
+      <id>EPS_MILS:6:458</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="d882cd86-4b1a-4556-a045-eed6d99b5013">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="79577707-96c6-4269-9b6d-94c56534cb98">
+          <name>S</name>
+          <value>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</value>
+        </cachedVariables>
+        <initializationCode>S  = GetDataForEquivalentModel(&apos;Discrete&apos;,gcbh);</initializationCode>
+      </masks>
+      <parentId>EPS_MILS:6</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3cf823fa-94a7-408e-bcf3-cacc0c5f5fb0">
+      <blockPath>EPS_MILS/1 Solar Panel module1</blockPath>
+      <childrenIds>EPS_MILS:81:1416:199</childrenIds>
+      <childrenIds>EPS_MILS:81:592</childrenIds>
+      <childrenIds>EPS_MILS:81:594</childrenIds>
+      <childrenIds>EPS_MILS:81:598</childrenIds>
+      <childrenIds>EPS_MILS:81:600</childrenIds>
+      <childrenIds>EPS_MILS:81:604</childrenIds>
+      <id>EPS_MILS:81</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="b8d1e8d8-8901-42f4-923e-d036691a8c01">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="a9e3667a-09c6-41a7-86ab-70fe18be4c21">
+          <name>EgRef</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAFYOLbKd7/E/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="e14f875e-c9b5-44d7-9b75-b217d3301bf2">
+          <name>Rsh_array5pc</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAANNNYhBYyWBA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="3d945eec-7fdb-4960-a07e-0d41aaef413d">
+          <name>Tref_K</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAGZmZmZmonJA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="42b491ec-341a-49d5-8088-5848fb1bedc2">
+          <name>VT_ref</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAPmfIME7UsU/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="2da6c04a-df74-4c96-a61a-47233b965d74">
+          <name>dEgdT</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAE9xwb5CizG/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="a8a1c658-9a87-405d-86aa-1e10f426882c">
+          <name>k1</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAYfZnL+lhY/</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="660bc84f-2d83-4817-b665-3fba51643f9c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Npar</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="de3f9163-0210-4595-9d2d-4ee948ade22c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Nser</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="172e674d-0231-4959-94e7-1217c65f48a6">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>PlotType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9013d01b-759b-47db-94b8-75383dc30363">
+          <evaluate>true</evaluate>
+          <expression>[ 1360 1000  500  100 ]</expression>
+          <isTunable>true</isTunable>
+          <name>S_vec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9e48023a-fb83-4920-9a77-bcff6c097c26">
+          <evaluate>true</evaluate>
+          <expression>[ 45 25  ]</expression>
+          <isTunable>true</isTunable>
+          <name>Temp_C_vec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d28ddbcb-a0e0-434f-8635-196e4062fa1a">
+          <expression>User-defined</expression>
+          <isTunable>true</isTunable>
+          <name>ModuleName</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4fe686ad-2ebc-482a-84ec-46d5ebc22600">
+          <expression>off</expression>
+          <name>PlotWhenSelected</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5ccc1a23-f81a-448e-8a61-66525f10ee55">
+          <evaluate>true</evaluate>
+          <expression>24</expression>
+          <isTunable>true</isTunable>
+          <name>Ncell</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2b0ba8fc-1e06-438f-962f-c640fe67e567">
+          <evaluate>true</evaluate>
+          <expression>4</expression>
+          <isTunable>true</isTunable>
+          <name>Voc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b33ca6bd-0d2a-45a6-8d39-8c4f468c0cdd">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>Isc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="66d82de2-edf4-4505-9d77-25ca7dcf647f">
+          <evaluate>true</evaluate>
+          <expression>3</expression>
+          <isTunable>true</isTunable>
+          <name>Vm</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23dc5fbc-888c-4641-a670-d9e2ce60ce9a">
+          <evaluate>true</evaluate>
+          <expression>1.5</expression>
+          <isTunable>true</isTunable>
+          <name>Im</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8c6ada29-1c02-4da7-9b9f-c912451c03af">
+          <evaluate>true</evaluate>
+          <expression>-0.3616</expression>
+          <isTunable>true</isTunable>
+          <name>beta_Voc_pc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d92e97d7-a054-471a-835b-c33d9a5b8f68">
+          <evaluate>true</evaluate>
+          <expression>0.041509</expression>
+          <isTunable>true</isTunable>
+          <name>alpha_Isc_pc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eccf10ca-5137-4d80-b9ba-c6dd379d1727">
+          <evaluate>true</evaluate>
+          <expression>-0.014464</expression>
+          <isTunable>true</isTunable>
+          <name>beta_Voc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="507dee69-e8fe-4d5f-9f85-e9d215bf0d66">
+          <evaluate>true</evaluate>
+          <expression>0.00083018</expression>
+          <isTunable>true</isTunable>
+          <name>alpha_Isc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="85b968eb-7f3b-4dd9-aaa3-c4470fb76f91">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>RobustModel</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3789efec-cfaf-483c-b6ab-4b06beae1acf">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>BAL</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c4dd53f9-7c04-4404-8e0d-252a90a0ef2d">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <isTunable>true</isTunable>
+          <name>Tc</name>
+        </dialogParameters>
+        <initializationCode>Block = gcb;
+[k,k1,q,Tref_C,Tref_K,EgRef,dEgdT,Rsh_array5pc,VT_ref,Tsf,Tf,VIdiodePV,WantBlockChoice] = PVArrayInit(Block, Nser, Npar, Ncell, Rsh, nI, Tfilter, Voc, I0);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,Block,WantBlockChoice);
+sps_rtmsupport(&apos;parametereditingmodes&apos;,Block, [3 6 7 23]);
+</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="58a2a4cc-f674-44e4-a961-ac44ade1c385">
+      <blockPath>EPS_MILS/1 Solar Panel module1/Diode Rsh/Id+IRsh</blockPath>
+      <id>EPS_MILS:81:1416:199</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="444b39b6-ea06-4797-88f3-a2beda8ecfc9">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="74d61f8d-f963-4380-9af3-a22c9a6e851f">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7bc42e51-0a7a-4c05-ba59-8d44397ed3e0">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f73b8ded-0e99-4d95-87d7-50ce37dc78be">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="789b7a18-0d9d-42c4-8b10-a5f950d87416">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5553acdd-8d7c-4433-ae98-9de02eee3003">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5bafa1d7-9c26-44c9-be55-553ba1ca7895">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3135a8c5-61ba-4a98-af8f-4d9e0d223223">
+      <blockPath>EPS_MILS/1 Solar Panel module1/IL</blockPath>
+      <id>EPS_MILS:81:592</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="3d6aa15d-53b2-4d67-821d-6cad99297df5">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a677a8c5-7c01-4da3-8073-cccb88c57896">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fcda48b8-de40-4b20-83d2-363136404b5e">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="832ad95f-44aa-4646-9a38-21ed6d450179">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b65b2c1c-8fe6-4c8c-a59f-fcd571f895bd">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c3c02c16-a6d3-4a2f-bce1-e05642987372">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ff1ca894-106d-43f0-bb6a-6bf6922727fa">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="dd86d6b7-6697-47af-9db0-4302bedf6d6d">
+      <blockPath>EPS_MILS/1 Solar Panel module1/I_PV</blockPath>
+      <id>EPS_MILS:81:594</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="c8f55215-6790-43f6-ba69-57cff29983b7">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="71a0edaf-67df-4b69-8f48-b7aea6a2696d">
+      <blockPath>EPS_MILS/1 Solar Panel module1/Rs_array</blockPath>
+      <id>EPS_MILS:81:598</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="71000fde-d1c1-4656-a3b2-81e3e01eb67e">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dfd39023-2745-4566-ad1f-d9d664bb358d">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2604c9d8-de28-4dd1-8ee0-7ee96e9d4a4a">
+          <evaluate>true</evaluate>
+          <expression>Rs*Nser/Npar</expression>
+          <name>Resistance</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="0c9281c0-31b1-4387-a255-9533a624b2de">
+            <name>Rs</name>
+            <value></value>
+            <workspace>EPS_MILS:81</workspace>
+          </referencedVariables>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="df06d99b-8b0a-4e50-8d82-cf344935c12f">
+            <name>Nser</name>
+            <value></value>
+            <workspace>EPS_MILS:81</workspace>
+          </referencedVariables>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="c48b3d9c-314e-4382-b20c-e65df2800ff3">
+            <name>Npar</name>
+            <value></value>
+            <workspace>EPS_MILS:81</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e8559d49-e90d-4bfe-9c6f-bf2be43cb83d">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7d0595f2-5558-4fe3-8b98-8241ec2d1be8">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0ed66b6b-b691-4a17-8b04-352334e72c29">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b9ee5d6-915d-4e41-8be7-9e6dad97d6fd">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5ebe57bf-e6eb-41e2-96d7-b3fd25d47ab8">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d0693e8e-d485-4388-a9f6-f2be93e4008e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a6cdf35e-cd3e-42cb-b040-562e950a8bdb">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="8c91f53a-4034-429b-995d-c7d1392891cb">
+      <blockPath>EPS_MILS/1 Solar Panel module1/Rsh_5%</blockPath>
+      <id>EPS_MILS:81:600</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="1e6c3888-7dfa-4b21-ad2e-50fe7bb9bea8">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ef358953-2c3b-432d-9b07-52a33afc17a9">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="53bab649-d4be-4f9e-9a51-8ca85486adf4">
+          <evaluate>true</evaluate>
+          <expression>Rsh_array5pc</expression>
+          <name>Resistance</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="f991e8e0-4868-4690-9399-868bdd8c0154">
+            <name>Rsh_array5pc</name>
+            <value></value>
+            <workspace>EPS_MILS:81</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="180ba29a-edd4-4809-a651-eb1ec8231429">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9b6cd2e0-f7b0-4bf3-9747-43c5e3b16b89">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fa369429-72ef-45f2-8af3-dce9b972821f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6db763ce-b29f-467e-979f-9d11227998a7">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1cca5cdd-5add-4c7d-9b7f-d51def6b2237">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="33f23684-af92-41b1-aa41-6488bd2ec1ef">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="02b93c3e-4e61-4cf8-9b41-439d975f2981">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="614f0a00-d372-4754-a781-097b2e445f61">
+      <blockPath>EPS_MILS/1 Solar Panel module1/V_PV</blockPath>
+      <id>EPS_MILS:81:604</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="9ba4cf40-0db2-450c-9c04-40e3b17fba7d">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>EPS_MILS:81</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="4eea4bb9-53b7-460e-b373-4184ad52bcd8">
+      <blockPath>EPS_MILS/Voltage Measurement1</blockPath>
+      <id>EPS_MILS:96</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="91cbb30d-ede1-4c85-83f6-616ef53e1af7">
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="55e7c436-5cf9-492e-92a3-f38f4d70f63a">
+      <childrenIds>EPS_MILS:1</childrenIds>
+      <childrenIds>EPS_MILS:101</childrenIds>
+      <childrenIds>EPS_MILS:102</childrenIds>
+      <childrenIds>EPS_MILS:122</childrenIds>
+      <childrenIds>EPS_MILS:139</childrenIds>
+      <childrenIds>EPS_MILS:144</childrenIds>
+      <childrenIds>EPS_MILS:15</childrenIds>
+      <childrenIds>EPS_MILS:16</childrenIds>
+      <childrenIds>EPS_MILS:17</childrenIds>
+      <childrenIds>EPS_MILS:20</childrenIds>
+      <childrenIds>EPS_MILS:21</childrenIds>
+      <childrenIds>EPS_MILS:45</childrenIds>
+      <childrenIds>EPS_MILS:6</childrenIds>
+      <childrenIds>EPS_MILS:81</childrenIds>
+      <childrenIds>EPS_MILS:96</childrenIds>
+      <id>root</id>
+    </maskedBlocks>
+    <flags type="slsa.mm.maskTree.MaskTreeFlags" uuid="409e8dce-dbae-4b74-9b67-32255d39ad32"/>
+  </slsa.mm.maskTree.MaskTree>
+</MF0>
