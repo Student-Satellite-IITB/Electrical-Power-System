@@ -1,7 +1,7 @@
 # EPS Solar Input Unit
 
-Development Board Schematic and PCB Design is complete
-Have sent the PCB for manufacturing
+Development Board Schematic and PCB Design is complete\
+Have sent the PCB for manufacturing\
 Yet to order components
 
 Components:
