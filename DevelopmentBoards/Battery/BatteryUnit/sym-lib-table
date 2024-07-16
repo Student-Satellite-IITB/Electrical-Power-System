@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Batt_Unit_BQ29209")(type "KiCad")(uri "C:/Users/Ameya/Downloads/ul_BQ29209DRBR/KiCADv6/2024-07-16_17-31-02.kicad_sym")(options "")(descr ""))
+  (lib (name "Batt_Unit_BQ2713")(type "KiCad")(uri "C:/Users/Ameya/Downloads/ul_BQ25713RSNR/KiCADv6/2024-07-16_18-08-16.kicad_sym")(options "")(descr ""))
+)
