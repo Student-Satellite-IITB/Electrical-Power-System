@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7197de1c-baf1-47db-9521-9237bab15753)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "VSOL" (shape input) (at 192.405 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7ed7dce5-28b2-4e9c-aa1c-06aaaa05ea8b)
+  )
+)
