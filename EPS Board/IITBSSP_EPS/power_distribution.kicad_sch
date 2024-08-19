@@ -7,4 +7,9 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "3V3_EPS" (shape input) (at 176.53 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2627cf9e-7abf-456a-a6b1-93997332a22d)
+  )
 )

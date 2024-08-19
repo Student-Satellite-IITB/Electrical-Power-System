@@ -8,8 +8,12 @@
   )
 
 
-  (hierarchical_label "VSOL" (shape input) (at 192.405 87.63 0) (fields_autoplaced)
+  (hierarchical_label "VSOL" (shape input) (at 181.61 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ed7dce5-28b2-4e9c-aa1c-06aaaa05ea8b)
+  )
+  (hierarchical_label "PANEL_MEAS" (shape input) (at 181.61 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d3ed68b5-784e-476d-9fe0-74a107cd2c1a)
   )
 )
