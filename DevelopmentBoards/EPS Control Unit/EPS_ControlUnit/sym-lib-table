@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS3824")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/KiCADv6/tps3824.kicad_sym")(options "")(descr ""))
+)
