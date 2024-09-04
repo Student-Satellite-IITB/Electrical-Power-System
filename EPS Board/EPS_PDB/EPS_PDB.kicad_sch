@@ -708,9 +708,6 @@
     (pin "9" (uuid c2482a8b-578c-448c-a700-578a5197e3a8))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J1") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J1") (unit 1)
         )
@@ -787,9 +784,6 @@
     (pin "9" (uuid 0f559f16-1976-479c-8840-8124b6a79a4f))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J2") (unit 1)
         )
