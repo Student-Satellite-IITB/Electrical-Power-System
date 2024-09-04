@@ -538,9 +538,6 @@
     (pin "9" (uuid ae4ee815-29c2-4048-8ad6-b657db62aadc))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J1") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J1") (unit 1)
         )
@@ -617,9 +614,6 @@
     (pin "9" (uuid ad2ce493-87a9-45cd-99a8-05bcdc1a4498))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J2") (unit 1)
         )
@@ -627,7 +621,7 @@
     )
   )
 
-  (sheet (at 56.515 143.51) (size 46.355 44.45) (fields_autoplaced)
+  (sheet (at 56.515 143.51) (size 45.085 44.45) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 2d9f4680-6d7b-4671-a50c-25972cd78742)
