@@ -1075,7 +1075,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 200.66 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a943708-9240-40bf-b7ac-bcac47c67676)
-    (property "Reference" "#SUPPLY07" (at 200.66 125.73 0)
+    (property "Reference" "#SUPPLY08" (at 200.66 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 122.555 0)
@@ -1091,7 +1091,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY07") (unit 1)
+          (reference "#SUPPLY08") (unit 1)
         )
       )
     )
@@ -1100,7 +1100,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 127 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10965e6b-6963-490f-8a78-4ef254bd8468)
-    (property "Reference" "U?" (at 114.3 76.708 0)
+    (property "Reference" "U7" (at 114.3 76.708 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 114.3 105.41 0)
@@ -1160,7 +1160,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1169,7 +1169,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 147.32 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1367872d-2f00-4a48-9c04-8d9e920e7d52)
-    (property "Reference" "#SUPPLY019" (at 147.32 144.78 0)
+    (property "Reference" "#SUPPLY013" (at 147.32 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 147.955 0)
@@ -1185,7 +1185,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY019") (unit 1)
+          (reference "#SUPPLY013") (unit 1)
         )
       )
     )
@@ -1194,7 +1194,7 @@
   (symbol (lib_id "LTC3624IDD-25PBF:LTC3624IDD-25PBF") (at 208.28 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15c342e3-d301-485c-aa13-42845494788e)
-    (property "Reference" "U" (at 222.25 130.81 0)
+    (property "Reference" "U11" (at 222.25 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "LTC3624IDD-25PBF" (at 226.06 129.54 0)
@@ -1248,7 +1248,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -1257,7 +1257,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 200.66 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1823075d-cdad-4a27-a169-c51c732757a5)
-    (property "Reference" "#SUPPLY09" (at 200.66 107.95 0)
+    (property "Reference" "#SUPPLY06" (at 200.66 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 111.125 0)
@@ -1273,7 +1273,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY09") (unit 1)
+          (reference "#SUPPLY06") (unit 1)
         )
       )
     )
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2082d6d3-1c1c-4e2a-8b09-099f239218df)
-    (property "Reference" "C4" (at 203.2 97.7963 0)
+    (property "Reference" "C18" (at 203.2 97.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 203.2 100.3363 0)
@@ -1299,7 +1299,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C4") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 78.74 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 212d9084-f99d-4462-bdfb-5c3d0133c10e)
-    (property "Reference" "#SUPPLY016" (at 78.74 104.14 0)
+    (property "Reference" "#SUPPLY05" (at 78.74 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 107.315 0)
@@ -1324,7 +1324,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY016") (unit 1)
+          (reference "#SUPPLY05") (unit 1)
         )
       )
     )
@@ -1333,7 +1333,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 83.82 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 217395ff-c5c6-4f72-b110-e5d12f2f70b1)
-    (property "Reference" "R9" (at 81.0514 133.35 0)
+    (property "Reference" "R18" (at 81.0514 133.35 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "R-USCHIP-0805(2012-METRIC)" (at 87.122 133.35 0)
@@ -1350,7 +1350,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R9") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1359,7 +1359,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 40.64 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 267206d2-79e5-41bf-900b-10c2c3a1178a)
-    (property "Reference" "#SUPPLY03" (at 40.64 140.97 0)
+    (property "Reference" "#SUPPLY010" (at 40.64 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 144.78 0)
@@ -1375,7 +1375,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY03") (unit 1)
+          (reference "#SUPPLY010") (unit 1)
         )
       )
     )
@@ -1384,7 +1384,7 @@
   (symbol (lib_id "Device:L") (at 207.01 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f88863a-5c25-49a5-b643-0eabaf5c5743)
-    (property "Reference" "L1" (at 207.01 130.81 90)
+    (property "Reference" "L2" (at 207.01 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.3uH" (at 207.01 133.35 90)
@@ -1401,7 +1401,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -1410,7 +1410,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 109.22 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3099b767-dc5e-44ec-8685-896674519da7)
-    (property "Reference" "R5" (at 111.9886 134.62 0)
+    (property "Reference" "R19" (at 111.9886 134.62 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "400k" (at 105.918 134.62 0)
@@ -1427,7 +1427,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R5") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1436,7 +1436,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 58.42 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 345c0f0b-8bc0-41d3-92ee-067a39802109)
-    (property "Reference" "U?" (at 45.72 117.348 0)
+    (property "Reference" "U9" (at 45.72 117.348 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 45.72 146.05 0)
@@ -1496,7 +1496,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1505,7 +1505,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 151.13 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35ef8a32-b788-4185-aa9e-530d28457f4d)
-    (property "Reference" "R8" (at 148.3614 92.71 0)
+    (property "Reference" "R16" (at 148.3614 92.71 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "1.3k" (at 154.432 92.71 0)
@@ -1522,7 +1522,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R8") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1531,7 +1531,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 109.22 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ce97274-cc75-45d4-aef8-5086b6825a65)
-    (property "Reference" "#SUPPLY010" (at 109.22 170.18 0)
+    (property "Reference" "#SUPPLY014" (at 109.22 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 173.99 0)
@@ -1547,7 +1547,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY010") (unit 1)
+          (reference "#SUPPLY014") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 78.74 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d869713-a2a0-414c-aa0e-73c67546a5c7)
-    (property "Reference" "#SUPPLY021" (at 78.74 143.51 0)
+    (property "Reference" "#SUPPLY012" (at 78.74 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 146.685 0)
@@ -1572,7 +1572,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY021") (unit 1)
+          (reference "#SUPPLY012") (unit 1)
         )
       )
     )
@@ -1581,7 +1581,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 40.64 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e15f26e-d643-4649-8f03-83e3dc6ea90f)
-    (property "Reference" "R2" (at 43.4086 133.35 0)
+    (property "Reference" "R17" (at 43.4086 133.35 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "400k" (at 37.338 133.35 0)
@@ -1598,7 +1598,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R2") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1607,7 +1607,7 @@
   (symbol (lib_id "Device:L") (at 212.09 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40ee7ae1-98c8-42da-aee5-d357932ec33b)
-    (property "Reference" "L2" (at 212.09 90.17 90)
+    (property "Reference" "L1" (at 212.09 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "16uH" (at 212.09 92.71 90)
@@ -1624,7 +1624,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "L2") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -1633,7 +1633,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 82.55 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 472d81a4-7037-40a8-af7e-0dc10b658ef8)
-    (property "Reference" "#SUPPLY017" (at 82.55 185.42 0)
+    (property "Reference" "#SUPPLY015" (at 82.55 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 188.595 0)
@@ -1649,7 +1649,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY017") (unit 1)
+          (reference "#SUPPLY015") (unit 1)
         )
       )
     )
@@ -1658,7 +1658,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 109.22 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bb7ef4a-f8e2-4b0a-af7d-5947767f9cec)
-    (property "Reference" "#SUPPLY06" (at 109.22 100.33 0)
+    (property "Reference" "#SUPPLY03" (at 109.22 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 104.14 0)
@@ -1674,7 +1674,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY06") (unit 1)
+          (reference "#SUPPLY03") (unit 1)
         )
       )
     )
@@ -1683,7 +1683,7 @@
   (symbol (lib_id "Device:C_Small") (at 255.27 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d8d6a81-a964-4d33-953e-2cc24f260b7c)
-    (property "Reference" "C3" (at 257.81 139.7063 0)
+    (property "Reference" "C22" (at 257.81 139.7063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 257.81 142.2463 0)
@@ -1700,7 +1700,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C3") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1709,7 +1709,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 57.15 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f8877fc-bc06-4dee-8153-b0df7d9d3bd2)
-    (property "Reference" "U?" (at 44.45 156.718 0)
+    (property "Reference" "U12" (at 44.45 156.718 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 44.45 185.42 0)
@@ -1769,7 +1769,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -1778,7 +1778,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 127 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 627bd514-835d-4233-8778-83e3e3a8d567)
-    (property "Reference" "U?" (at 114.3 156.718 0)
+    (property "Reference" "U13" (at 114.3 156.718 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 114.3 185.42 0)
@@ -1838,7 +1838,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -1847,7 +1847,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 149.86 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65cbbc87-0c25-4b0f-ae30-5966020171ea)
-    (property "Reference" "#SUPPLY020" (at 149.86 185.42 0)
+    (property "Reference" "#SUPPLY016" (at 149.86 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 188.595 0)
@@ -1863,7 +1863,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY020") (unit 1)
+          (reference "#SUPPLY016") (unit 1)
         )
       )
     )
@@ -1872,7 +1872,7 @@
   (symbol (lib_id "Device:C_Small") (at 259.08 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 717423ce-7f51-48fe-9a44-c0d478bc33f8)
-    (property "Reference" "C6" (at 261.62 81.2863 0)
+    (property "Reference" "C17" (at 261.62 81.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 261.62 83.8263 0)
@@ -1889,7 +1889,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C6") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1898,7 +1898,7 @@
   (symbol (lib_id "Device:C_Small") (at 208.28 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75b09ffb-b15d-4cbc-9252-980038e50297)
-    (property "Reference" "C1" (at 204.47 140.97 90)
+    (property "Reference" "C21" (at 204.47 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 208.28 140.97 90)
@@ -1915,7 +1915,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C1") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1924,7 +1924,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 86.36 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97f78665-046d-4a1c-99c6-713920b3b278)
-    (property "Reference" "R11" (at 83.5914 172.72 0)
+    (property "Reference" "R21" (at 83.5914 172.72 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "R-USCHIP-0805(2012-METRIC)" (at 89.662 172.72 0)
@@ -1941,7 +1941,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R11") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 109.22 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ecfe5d6-8991-4e6c-a307-db1d5b5e6a12)
-    (property "Reference" "R4" (at 111.9886 92.71 0)
+    (property "Reference" "R15" (at 111.9886 92.71 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "400k" (at 105.918 92.71 0)
@@ -1967,7 +1967,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R4") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1976,7 +1976,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 255.27 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a199ca9b-e3bc-42b6-bc6c-45332dfc276f)
-    (property "Reference" "#SUPPLY08" (at 255.27 133.35 0)
+    (property "Reference" "#SUPPLY09" (at 255.27 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 130.175 0)
@@ -1992,7 +1992,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY08") (unit 1)
+          (reference "#SUPPLY09") (unit 1)
         )
       )
     )
@@ -2001,7 +2001,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 40.64 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a38f88c9-4a42-4d4e-a1b4-940e7575a3f9)
-    (property "Reference" "#SUPPLY05" (at 40.64 100.33 0)
+    (property "Reference" "#SUPPLY02" (at 40.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 104.14 0)
@@ -2017,7 +2017,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY05") (unit 1)
+          (reference "#SUPPLY02") (unit 1)
         )
       )
     )
@@ -2026,7 +2026,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 58.42 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a60d8967-666f-49a2-84d8-54f8862a776b)
-    (property "Reference" "U?" (at 45.72 76.708 0)
+    (property "Reference" "U6" (at 45.72 76.708 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 45.72 105.41 0)
@@ -2086,7 +2086,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2095,7 +2095,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 147.32 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae605298-c013-45c9-beb4-38dcc7a656fc)
-    (property "Reference" "#SUPPLY018" (at 147.32 102.87 0)
+    (property "Reference" "#SUPPLY04" (at 147.32 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 106.045 0)
@@ -2111,7 +2111,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY018") (unit 1)
+          (reference "#SUPPLY04") (unit 1)
         )
       )
     )
@@ -2120,7 +2120,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 40.64 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b04acf6f-1e7c-45ce-86e0-ceea7623b793)
-    (property "Reference" "R1" (at 43.4086 92.71 0)
+    (property "Reference" "R13" (at 43.4086 92.71 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "400k" (at 37.338 92.71 0)
@@ -2137,7 +2137,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R1") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2146,7 +2146,7 @@
   (symbol (lib_id "Device:C_Small") (at 214.63 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b25f3277-fc0d-4e3f-ad4c-37286135a079)
-    (property "Reference" "C5" (at 214.63 97.79 90)
+    (property "Reference" "C19" (at 214.63 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 214.63 100.33 90)
@@ -2163,7 +2163,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C5") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -2172,7 +2172,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 109.22 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2d902b5-cb41-4474-9b16-1bffb9acb4d3)
-    (property "Reference" "#SUPPLY04" (at 109.22 142.24 0)
+    (property "Reference" "#SUPPLY011" (at 109.22 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 146.05 0)
@@ -2188,7 +2188,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY04") (unit 1)
+          (reference "#SUPPLY011") (unit 1)
         )
       )
     )
@@ -2197,7 +2197,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 259.08 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb8f9057-b761-4f15-a703-de070f884510)
-    (property "Reference" "#SUPPLY011" (at 259.08 74.93 0)
+    (property "Reference" "#SUPPLY01" (at 259.08 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 71.755 0)
@@ -2213,7 +2213,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY011") (unit 1)
+          (reference "#SUPPLY01") (unit 1)
         )
       )
     )
@@ -2222,7 +2222,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0c3104e-e62b-4f5e-85c9-32074cbdf52e)
-    (property "Reference" "C2" (at 194.31 129.54 0)
+    (property "Reference" "C20" (at 194.31 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47uF" (at 194.31 132.08 0)
@@ -2239,7 +2239,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "C2") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2248,10 +2248,10 @@
   (symbol (lib_id "LTC3624_3.3:LTC3624EMSE_3.3PBF") (at 224.79 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c84181d2-2920-425b-a5f3-6acb57c2cc5f)
-    (property "Reference" "U?" (at 226.06 73.66 0)
+    (property "Reference" "U8" (at 226.06 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at 224.79 96.52 0)
+    (property "Value" "~" (at 224.79 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "EPS_Schematic_v2:SOP65P490X110-13N" (at 224.79 96.52 0)
@@ -2275,7 +2275,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -2284,7 +2284,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 151.13 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d818e4e9-8a42-4709-97de-467a0cab7edd)
-    (property "Reference" "R12" (at 148.3614 134.62 0)
+    (property "Reference" "R20" (at 148.3614 134.62 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "1.3k" (at 154.432 134.62 0)
@@ -2301,7 +2301,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R12") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2310,7 +2310,7 @@
   (symbol (lib_id "TPS259621DDAT:TPS259621DDAT") (at 127 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8e1ea18-543c-4ad5-8b80-326fdf2ddc2d)
-    (property "Reference" "U?" (at 114.3 118.618 0)
+    (property "Reference" "U10" (at 114.3 118.618 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "TPS259621DDAT" (at 114.3 147.32 0)
@@ -2370,7 +2370,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "U?") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -2379,7 +2379,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH") (at 234.95 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f598dca4-62be-4f66-8f41-f3cc268569f4)
-    (property "Reference" "#SUPPLY02" (at 234.95 118.11 0)
+    (property "Reference" "#SUPPLY07" (at 234.95 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 121.285 0)
@@ -2395,7 +2395,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "#SUPPLY02") (unit 1)
+          (reference "#SUPPLY07") (unit 1)
         )
       )
     )
@@ -2404,7 +2404,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 156.21 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7931a47-8f89-4bf3-ba5f-345c8160a48e)
-    (property "Reference" "R13" (at 153.4414 172.72 0)
+    (property "Reference" "R22" (at 153.4414 172.72 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "2.2k" (at 159.512 172.72 0)
@@ -2421,7 +2421,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R13") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2430,7 +2430,7 @@
   (symbol (lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)") (at 82.55 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbfc9786-ace0-4110-83a4-42a930cb2f2f)
-    (property "Reference" "R10" (at 79.7814 92.71 0)
+    (property "Reference" "R14" (at 79.7814 92.71 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "510" (at 85.852 92.71 0)
@@ -2447,7 +2447,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )

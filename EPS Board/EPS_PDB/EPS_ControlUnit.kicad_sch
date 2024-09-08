@@ -2210,6 +2210,7 @@
   (no_connect (at 140.97 131.445) (uuid de6b3cfd-1451-4868-b67c-5d9c29138fd4))
   (no_connect (at 140.97 98.425) (uuid e13ec32a-3a35-4d3a-88e8-ba8bb4c06aa3))
   (no_connect (at 140.97 85.725) (uuid e1fc0b25-4030-42b3-b901-75473a71cab8))
+  (no_connect (at 95.25 126.365) (uuid e2038de6-5184-467c-b6a1-f898216b9a2f))
   (no_connect (at 140.97 177.165) (uuid f1a83e88-1e44-4376-ab6b-f99fde68f844))
   (no_connect (at 140.97 133.985) (uuid f2e3c821-495b-45de-948b-3fc5edcf8df1))
   (no_connect (at 95.25 113.665) (uuid f58212d5-4386-4c6e-b7cd-42ee913b4e78))
@@ -2684,10 +2685,6 @@
     (stroke (width 0) (type default))
     (uuid 899d06e1-9ceb-4a7a-af0f-9979b4afae07)
   )
-  (wire (pts (xy 95.25 126.365) (xy 81.915 126.365))
-    (stroke (width 0) (type default))
-    (uuid 89e44908-56c6-4a17-aa68-bc5837fbc2ac)
-  )
   (wire (pts (xy 41.275 137.16) (xy 53.975 137.16))
     (stroke (width 0) (type default))
     (uuid 8a242430-f9c2-4773-8515-d4bd1e3c4b62)
@@ -2703,10 +2700,6 @@
   (wire (pts (xy 331.47 170.18) (xy 339.09 170.18))
     (stroke (width 0) (type default))
     (uuid 8b3a0feb-ad26-47cc-9635-49cd066ac1ae)
-  )
-  (wire (pts (xy 329.565 240.03) (xy 342.9 240.03))
-    (stroke (width 0) (type default))
-    (uuid 8f388ecb-12b8-4aa2-98e9-e5a6457b4877)
   )
   (wire (pts (xy 347.98 59.055) (xy 353.06 59.055))
     (stroke (width 0) (type default))
@@ -5491,10 +5484,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 66931982-8f57-4d8e-ba1d-b9cafc4b7bdc)
   )
-  (label "RST_CC" (at 342.9 240.03 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 6ba320b2-3650-4a62-8118-125a0f7ac2a3)
-  )
   (label "EN_3V3_ADCS" (at 79.375 179.705 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6eee95f9-e3f9-4e2e-b625-50647f3be817)
@@ -5631,10 +5620,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8aef2fe-3c10-4de2-80fc-e85f593cfd87)
   )
-  (label "RST_CC" (at 81.915 126.365 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e8e55739-767d-4dcb-8fe5-0c2204fa3cc2)
-  )
   (label "EN_5V_ADCS" (at 344.805 205.105 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eca41ec7-cb60-4c88-894a-fa443635af24)
@@ -5720,10 +5705,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5abc1b44-e691-4237-bbbd-062e0c42dfb6)
   )
-  (hierarchical_label "RST_CC" (shape input) (at 329.565 240.03 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5b480ccb-13fc-4b41-a879-52e7fd6d1c4b)
-  )
   (hierarchical_label "EN_5V_PAY" (shape input) (at 329.565 220.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5bde5dcf-46fb-4eb2-a8b8-2440843f4cfb)
@@ -5796,7 +5777,7 @@
   (symbol (lib_id "power:+3.3V") (at 113.03 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00749fcf-ccc3-40ce-80e4-a6748e9577d3)
-    (property "Reference" "#PWR02" (at 113.03 59.69 0)
+    (property "Reference" "#PWR012" (at 113.03 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 113.03 52.07 0)
@@ -5812,7 +5793,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -5831,7 +5812,7 @@
   (symbol (lib_id "power:+3.3V") (at 163.195 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01455eb1-0369-4df7-89cf-1a34b2bd100f)
-    (property "Reference" "#PWR05" (at 163.195 64.135 0)
+    (property "Reference" "#PWR014" (at 163.195 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 163.195 56.515 0)
@@ -5847,7 +5828,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -5866,7 +5847,7 @@
   (symbol (lib_id "Device:C") (at 92.075 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01485e33-5e0a-4521-b2c2-f0c634172d62)
-    (property "Reference" "C7" (at 95.25 65.405 0)
+    (property "Reference" "C9" (at 95.25 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 95.25 67.945 0)
@@ -5883,7 +5864,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -5902,7 +5883,7 @@
   (symbol (lib_id "power:+3.3VA") (at 125.73 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 091e0652-aaaa-412a-bfad-cd925d262041)
-    (property "Reference" "#PWR04" (at 125.73 64.135 0)
+    (property "Reference" "#PWR013" (at 125.73 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 125.73 56.515 0)
@@ -5918,7 +5899,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -5937,7 +5918,7 @@
   (symbol (lib_id "power:GND") (at 276.86 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10b0eba9-5b17-4cb6-99e8-5552daace0c8)
-    (property "Reference" "#PWR028" (at 276.86 97.79 0)
+    (property "Reference" "#PWR020" (at 276.86 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.86 95.885 0)
@@ -5953,7 +5934,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -5972,7 +5953,7 @@
   (symbol (lib_id "Interface_CAN_LIN:MCP2551-I-P") (at 335.28 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 122d8be4-18e3-4784-91df-c4c751a216a8)
-    (property "Reference" "U5" (at 337.2359 74.295 0)
+    (property "Reference" "U3" (at 337.2359 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP2551-I-P" (at 337.2359 76.835 0)
@@ -5995,7 +5976,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -6004,7 +5985,7 @@
   (symbol (lib_id "Device:R") (at 226.06 93.345 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 140d6c80-7792-4fec-82e3-1422d82599f9)
-    (property "Reference" "R2" (at 228.6 93.98 90)
+    (property "Reference" "R8" (at 228.6 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 223.52 93.345 90)
@@ -6021,7 +6002,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R2") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6040,7 +6021,7 @@
   (symbol (lib_id "power:+3.3V") (at 222.25 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d034e50-d360-4f34-a70c-6bc9b00fde40)
-    (property "Reference" "#PWR016" (at 222.25 113.665 0)
+    (property "Reference" "#PWR023" (at 222.25 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 222.25 106.045 0)
@@ -6056,7 +6037,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6113,7 +6094,7 @@
   (symbol (lib_id "Device:C") (at 63.5 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30430f32-f4d5-41c3-9ea3-e67aba0058d3)
-    (property "Reference" "C14" (at 66.675 128.27 0)
+    (property "Reference" "C16" (at 66.675 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 66.675 130.81 0)
@@ -6130,7 +6111,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C14") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6149,7 +6130,7 @@
   (symbol (lib_id "Device:R") (at 226.06 117.475 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30f1389b-3ee2-49de-af1c-f89979ade07b)
-    (property "Reference" "R5" (at 228.6 118.11 90)
+    (property "Reference" "R10" (at 228.6 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 223.52 117.475 90)
@@ -6166,7 +6147,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6258,7 +6239,7 @@
   (symbol (lib_id "power:+3.3V") (at 99.695 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 445fabb9-2124-4742-9df0-f5ad8ef97175)
-    (property "Reference" "#PWR025" (at 99.695 254 0)
+    (property "Reference" "#PWR028" (at 99.695 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 99.695 246.38 0)
@@ -6274,7 +6255,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6293,7 +6274,7 @@
   (symbol (lib_id "Interface_CAN_LIN:MCP2551-I-P") (at 335.28 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47beeaf5-2063-40b8-acd1-5d69953ea529)
-    (property "Reference" "U4" (at 337.2359 45.085 0)
+    (property "Reference" "U2" (at 337.2359 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP2551-I-P" (at 337.2359 47.625 0)
@@ -6316,7 +6297,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6325,7 +6306,7 @@
   (symbol (lib_id "Device:C") (at 41.275 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49266886-df6c-43da-9fee-d258f06bfbc0)
-    (property "Reference" "C2" (at 44.45 65.405 0)
+    (property "Reference" "C4" (at 44.45 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 44.45 67.945 0)
@@ -6342,7 +6323,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6361,7 +6342,7 @@
   (symbol (lib_id "power:+3.3V") (at 222.25 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55306afc-e95c-4569-8edc-429ee4a7b116)
-    (property "Reference" "#PWR010" (at 222.25 89.535 0)
+    (property "Reference" "#PWR019" (at 222.25 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 222.25 81.915 0)
@@ -6377,7 +6358,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6396,7 +6377,7 @@
   (symbol (lib_id "Device:R") (at 271.145 76.835 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56a10207-d146-41a2-8891-94cfec6493c4)
-    (property "Reference" "R10" (at 271.145 72.39 90)
+    (property "Reference" "R4" (at 271.145 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 271.145 74.93 90)
@@ -6413,7 +6394,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R10") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -6422,7 +6403,7 @@
   (symbol (lib_id "power:GND") (at 50.165 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57d99c56-9c03-4de2-bcfb-c01315e12ef2)
-    (property "Reference" "#PWR014" (at 50.165 100.33 0)
+    (property "Reference" "#PWR021" (at 50.165 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.165 98.425 0)
@@ -6438,7 +6419,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6457,7 +6438,7 @@
   (symbol (lib_id "power:+3.3V") (at 346.075 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59c51c11-531e-4937-88a5-b0dde7339ee0)
-    (property "Reference" "#PWR03" (at 346.075 162.56 0)
+    (property "Reference" "#PWR025" (at 346.075 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 346.075 154.94 0)
@@ -6473,7 +6454,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6492,7 +6473,7 @@
   (symbol (lib_id "power:GND") (at 118.11 221.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ddfb652-7083-4242-a83a-ec41740b4321)
-    (property "Reference" "#PWR023" (at 118.11 227.965 0)
+    (property "Reference" "#PWR027" (at 118.11 227.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 226.06 0)
@@ -6508,7 +6489,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6527,7 +6508,7 @@
   (symbol (lib_id "power:+3.3V") (at 276.225 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5de9810e-e0e1-4a36-9c6b-7b55ca444c5c)
-    (property "Reference" "#PWR027" (at 276.225 51.435 0)
+    (property "Reference" "#PWR011" (at 276.225 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 276.225 43.815 0)
@@ -6543,7 +6524,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6562,7 +6543,7 @@
   (symbol (lib_id "Device:C") (at 69.85 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6823bd62-b65d-418f-90c0-01f6ca2f95f0)
-    (property "Reference" "C5" (at 73.025 65.405 0)
+    (property "Reference" "C7" (at 73.025 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 73.025 67.945 0)
@@ -6579,7 +6560,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6634,7 +6615,7 @@
   (symbol (lib_id "TPS3824:TPS3824-33QDBVRQ1") (at 31.115 257.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ace4db6-060c-46ba-a56c-75a42e4b4bcf)
-    (property "Reference" "U3" (at 64.135 248.285 0)
+    (property "Reference" "U5" (at 64.135 248.285 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TPS3824-33QDBVRQ1" (at 64.135 250.825 0)
@@ -6654,7 +6635,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6668,7 +6649,7 @@
   (symbol (lib_id "power:+3.3V") (at 50.165 85.725 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b1dfaf9-1c3f-4764-a933-0202ab766c2f)
-    (property "Reference" "#PWR011" (at 53.975 85.725 0)
+    (property "Reference" "#PWR018" (at 53.975 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 46.355 86.36 90)
@@ -6684,7 +6665,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6703,7 +6684,7 @@
   (symbol (lib_id "Device:R") (at 78.74 88.265 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74a8b45f-279c-4be0-a963-a951d557f77a)
-    (property "Reference" "R3" (at 79.375 85.725 90)
+    (property "Reference" "R6" (at 79.375 85.725 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 78.74 90.805 90)
@@ -6720,7 +6701,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R3") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6739,7 +6720,7 @@
   (symbol (lib_id "power:GND") (at 165.735 194.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 762031f3-2e82-4403-a5e5-5eec108e37c3)
-    (property "Reference" "#PWR020" (at 165.735 201.295 0)
+    (property "Reference" "#PWR026" (at 165.735 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.735 199.39 0)
@@ -6755,7 +6736,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6774,7 +6755,7 @@
   (symbol (lib_id "Device:C") (at 60.325 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76b1ba2f-43ec-4098-bbb2-24d1b6f7a0d7)
-    (property "Reference" "C4" (at 63.5 65.405 0)
+    (property "Reference" "C6" (at 63.5 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 63.5 67.945 0)
@@ -6791,7 +6772,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6810,7 +6791,7 @@
   (symbol (lib_id "Device:R") (at 113.665 262.255 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86adc792-1430-4a0f-9060-58636ce0d021)
-    (property "Reference" "R14" (at 113.665 260.35 90)
+    (property "Reference" "R12" (at 113.665 260.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 113.665 264.795 90)
@@ -6827,7 +6808,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R14") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -6836,7 +6817,7 @@
   (symbol (lib_id "Device:C") (at 139.065 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cd0f324-e44a-43fb-895f-e896dd9612b7)
-    (property "Reference" "C9" (at 141.605 67.31 0)
+    (property "Reference" "C11" (at 141.605 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 141.605 70.485 0)
@@ -6853,7 +6834,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6872,7 +6853,7 @@
   (symbol (lib_id "Device:C") (at 149.225 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9024c958-42df-4efa-90bb-abdca24270ef)
-    (property "Reference" "C10" (at 152.4 67.945 0)
+    (property "Reference" "C12" (at 152.4 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 152.4 70.485 0)
@@ -6889,7 +6870,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6908,7 +6889,7 @@
   (symbol (lib_id "Device:C") (at 31.75 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 935ead83-1607-4971-89b7-1eaa9bfba1c4)
-    (property "Reference" "C1" (at 35.56 65.405 0)
+    (property "Reference" "C3" (at 35.56 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 35.56 67.945 0)
@@ -6925,7 +6906,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6944,7 +6925,7 @@
   (symbol (lib_id "Device:R") (at 218.44 117.475 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f35bb63-8861-4c90-b549-9a7afed582f2)
-    (property "Reference" "R4" (at 220.98 118.11 90)
+    (property "Reference" "R9" (at 220.98 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 215.9 117.475 90)
@@ -6961,7 +6942,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -6980,7 +6961,7 @@
   (symbol (lib_id "Device:LED") (at 158.115 184.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0879d81-a1ec-4633-958a-a9f9e94a20a5)
-    (property "Reference" "D1" (at 159.7025 179.07 0)
+    (property "Reference" "D2" (at 159.7025 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EPS_LED" (at 159.7025 181.61 0)
@@ -6997,7 +6978,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7016,7 +6997,7 @@
   (symbol (lib_id "Device:R") (at 218.44 93.345 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a555272c-b667-4117-9b77-62dcdb310e62)
-    (property "Reference" "R1" (at 220.98 93.98 90)
+    (property "Reference" "R7" (at 220.98 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 215.9 93.345 90)
@@ -7033,7 +7014,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R1") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7052,7 +7033,7 @@
   (symbol (lib_id "Device:R") (at 270.51 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5d77cb9-effe-4a9c-b337-844c106ac319)
-    (property "Reference" "R8" (at 270.51 55.245 90)
+    (property "Reference" "R3" (at 270.51 55.245 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 270.51 57.785 90)
@@ -7069,7 +7050,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R8") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -7114,7 +7095,7 @@
   (symbol (lib_id "power:GND") (at 149.225 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b136c414-83a8-495a-8d9f-5251d07d21e5)
-    (property "Reference" "#PWR08" (at 149.225 81.28 0)
+    (property "Reference" "#PWR016" (at 149.225 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.225 79.375 0)
@@ -7130,7 +7111,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7149,7 +7130,7 @@
   (symbol (lib_id "power:GND") (at 31.75 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid badb2745-70cc-452d-83c8-b5a2666c15cc)
-    (property "Reference" "#PWR07" (at 31.75 78.74 0)
+    (property "Reference" "#PWR015" (at 31.75 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 76.835 0)
@@ -7165,7 +7146,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7184,7 +7165,7 @@
   (symbol (lib_id "Device:R") (at 165.735 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc378f54-8775-483f-911d-1da91c8a444d)
-    (property "Reference" "R6" (at 168.275 189.865 90)
+    (property "Reference" "R11" (at 168.275 189.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 163.195 189.23 90)
@@ -7201,7 +7182,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R6") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7220,7 +7201,7 @@
   (symbol (lib_id "Device:C") (at 41.275 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdf75554-c183-45b4-8c0a-7174f19a5453)
-    (property "Reference" "C13" (at 45.085 127 0)
+    (property "Reference" "C15" (at 45.085 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 45.085 129.54 0)
@@ -7237,7 +7218,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7256,7 +7237,7 @@
   (symbol (lib_id "Device:R") (at 276.86 83.185 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d226e273-a39f-4086-a5fb-19c40d71582d)
-    (property "Reference" "R11" (at 278.765 82.55 0)
+    (property "Reference" "R5" (at 278.765 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R" (at 278.765 85.09 0)
@@ -7273,7 +7254,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R11") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -7282,7 +7263,7 @@
   (symbol (lib_id "power:GND") (at 41.275 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d23f258e-50ac-4f70-b874-c335e1ba47ab)
-    (property "Reference" "#PWR019" (at 41.275 145.415 0)
+    (property "Reference" "#PWR024" (at 41.275 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 143.51 0)
@@ -7298,7 +7279,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7317,7 +7298,7 @@
   (symbol (lib_id "power:GND") (at 163.195 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d69fc698-f7b4-4b31-8e00-97ee77170d85)
-    (property "Reference" "#PWR09" (at 163.195 82.55 0)
+    (property "Reference" "#PWR017" (at 163.195 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.195 80.645 0)
@@ -7333,7 +7314,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7352,7 +7333,7 @@
   (symbol (lib_id "Device:C") (at 163.195 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daab10f9-b2d7-44da-9d9c-04b1617d3b1a)
-    (property "Reference" "C11" (at 166.37 67.945 0)
+    (property "Reference" "C13" (at 166.37 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 166.37 70.485 0)
@@ -7369,7 +7350,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7388,7 +7369,7 @@
   (symbol (lib_id "Device:C") (at 38.1 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dadc772b-e02e-442b-8b9c-2b2be2abee25)
-    (property "Reference" "C12" (at 41.275 88.9 0)
+    (property "Reference" "C14" (at 41.275 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 41.275 91.44 0)
@@ -7405,7 +7386,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7424,7 +7405,7 @@
   (symbol (lib_id "Device:C") (at 102.235 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de255a24-750b-49b8-91c9-a803728a321c)
-    (property "Reference" "C8" (at 105.41 65.405 0)
+    (property "Reference" "C10" (at 105.41 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 105.41 67.945 0)
@@ -7441,7 +7422,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7460,7 +7441,7 @@
   (symbol (lib_id "power:GND") (at 28.575 267.335 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0c54870-89f4-4197-9e08-e033a0c5460b)
-    (property "Reference" "#PWR026" (at 28.575 273.685 0)
+    (property "Reference" "#PWR029" (at 28.575 273.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 28.575 271.78 0)
@@ -7476,7 +7457,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7495,7 +7476,7 @@
   (symbol (lib_id "power:GND") (at 38.1 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e770a133-5612-4aed-8160-59fa87964b48)
-    (property "Reference" "#PWR015" (at 38.1 103.505 0)
+    (property "Reference" "#PWR022" (at 38.1 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 101.6 0)
@@ -7511,7 +7492,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7530,7 +7511,7 @@
   (symbol (lib_id "Device:C") (at 50.8 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb8a7c6e-f38c-436a-b61a-86bd8340e9db)
-    (property "Reference" "C3" (at 53.975 65.405 0)
+    (property "Reference" "C5" (at 53.975 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 53.975 67.945 0)
@@ -7547,7 +7528,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7566,7 +7547,7 @@
   (symbol (lib_id "MCU_ST_STM32L4:STM32L476VETx") (at 118.11 146.685 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ca7c4a-738a-4cd1-ba25-d5294636848a)
-    (property "Reference" "U1" (at 134.62 78.105 0)
+    (property "Reference" "U4" (at 134.62 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32L476VET6" (at 125.73 215.9 0)
@@ -7681,7 +7662,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
@@ -7700,7 +7681,7 @@
   (symbol (lib_id "Device:R") (at 276.225 53.975 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8b73f47-77da-40ee-b294-fd3a195e64fe)
-    (property "Reference" "R9" (at 278.13 53.34 0)
+    (property "Reference" "R2" (at 278.13 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R" (at 278.13 55.88 0)
@@ -7717,7 +7698,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R9") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -7726,7 +7707,7 @@
   (symbol (lib_id "Device:C") (at 80.645 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff6a92aa-99d4-428e-b84f-144b48833b23)
-    (property "Reference" "C6" (at 83.82 65.405 0)
+    (property "Reference" "C8" (at 83.82 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 83.82 67.945 0)
@@ -7743,7 +7724,7 @@
     (instances
       (project "EPS_PDB"
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "EPS_ControlUnit"
