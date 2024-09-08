@@ -1969,7 +1969,7 @@
   (symbol (lib_id "Device:C") (at 193.675 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cb9714c-d9af-4c9a-8867-4fb8972ee53a)
-    (property "Reference" "C16" (at 196.85 206.375 0)
+    (property "Reference" "C18" (at 196.85 206.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 196.85 208.915 0)
@@ -1985,9 +1985,6 @@
     (pin "2" (uuid 5d3a3eaa-74ab-492e-b85f-f93fe897d2a5))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C16") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "C18") (unit 1)
         )
@@ -2008,7 +2005,7 @@
   (symbol (lib_id "power:VBUS") (at 186.055 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a6b594e-ae47-4bc1-889b-15fa0c9d1b74)
-    (property "Reference" "#PWR06" (at 186.055 107.315 0)
+    (property "Reference" "#PWR029" (at 186.055 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 186.055 100.33 0)
@@ -2023,9 +2020,6 @@
     (pin "1" (uuid c96a6a16-839a-4011-95b0-95412c84c883))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR029") (unit 1)
         )
@@ -2046,7 +2040,7 @@
   (symbol (lib_id "power:GND") (at 267.97 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d9c6213-9fe3-4eb7-af12-5b4d46f59b2a)
-    (property "Reference" "#PWR021" (at 267.97 220.98 0)
+    (property "Reference" "#PWR01" (at 267.97 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 219.075 0)
@@ -2061,9 +2055,6 @@
     (pin "1" (uuid 3b4ce50c-e567-4dda-b095-aca10f5cdb27))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR01") (unit 1)
         )
@@ -2084,7 +2075,7 @@
   (symbol (lib_id "Device:LED") (at 229.235 200.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd1aeff-4871-499d-8c53-d34b5fa3d0ec)
-    (property "Reference" "D2" (at 230.8225 194.31 0)
+    (property "Reference" "D3" (at 230.8225 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "POWER_LED" (at 230.8225 196.85 0)
@@ -2100,9 +2091,6 @@
     (pin "2" (uuid 7f9c9882-c716-44a6-a90c-43ca06a3e2f5))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "D2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "D3") (unit 1)
         )
@@ -2123,7 +2111,7 @@
   (symbol (lib_id "power:GND") (at 198.755 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f691dc1-175f-42db-b5f8-90fb8412ed34)
-    (property "Reference" "#PWR018" (at 198.755 161.29 0)
+    (property "Reference" "#PWR031" (at 198.755 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.755 159.385 0)
@@ -2138,9 +2126,6 @@
     (pin "1" (uuid 618a8cbe-1104-416e-8a81-71360b6a234f))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR031") (unit 1)
         )
@@ -2161,7 +2146,7 @@
   (symbol (lib_id "power:VBUS") (at 162.56 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35e95f86-d919-4b2f-80c8-9ed074a1cc44)
-    (property "Reference" "#PWR022" (at 162.56 201.93 0)
+    (property "Reference" "#PWR034" (at 162.56 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 162.56 194.945 0)
@@ -2176,9 +2161,6 @@
     (pin "1" (uuid ec77f096-95e0-4e10-b8b1-5d4e046431dc))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR034") (unit 1)
         )
@@ -2199,7 +2181,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 191.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45638f27-c333-4c5c-bdc7-0f7192686ccf)
-    (property "Reference" "TP1" (at 191.135 187.833 0)
+    (property "Reference" "TP3" (at 191.135 187.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 191.135 190.373 0)
@@ -2214,9 +2196,6 @@
     (pin "1" (uuid 44c7feb4-71fd-4b2b-b170-883f840a21a0))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "TP1") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "TP3") (unit 1)
         )
@@ -2308,7 +2287,7 @@
   (symbol (lib_id "power:GND") (at 170.815 222.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b52a72b-664e-42e6-9498-c540df7af1e4)
-    (property "Reference" "#PWR024" (at 170.815 229.235 0)
+    (property "Reference" "#PWR035" (at 170.815 229.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.815 227.33 0)
@@ -2323,9 +2302,6 @@
     (pin "1" (uuid f394bf81-592d-42c9-8d27-ec79b9300640))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR035") (unit 1)
         )
@@ -2346,7 +2322,7 @@
   (symbol (lib_id "power:+3.3V") (at 220.345 194.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ffb465f-a81a-4a07-bab1-dc2ada8a824a)
-    (property "Reference" "#PWR021" (at 220.345 198.755 0)
+    (property "Reference" "#PWR036" (at 220.345 198.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.345 191.135 0)
@@ -2361,9 +2337,6 @@
     (pin "1" (uuid 9202c3d4-d437-4a84-85fb-34f676ad5d73))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR036") (unit 1)
         )
@@ -2384,7 +2357,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 203.2 112.395 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67367e1c-3c98-4dbb-8270-baac51d02dbe)
-    (property "Reference" "J3" (at 209.55 111.76 0)
+    (property "Reference" "J6" (at 209.55 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB_B_Micro" (at 209.55 114.3 0)
@@ -2404,9 +2377,6 @@
     (pin "6" (uuid 81ca6155-aad7-4ca0-a918-686f4ab72873))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J3") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J6") (unit 1)
         )
@@ -2503,7 +2473,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 359.41 59.055 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7efd463e-9b5d-41f7-9880-5dc9160ca8ce)
-    (property "Reference" "H2" (at 358.14 53.34 90)
+    (property "Reference" "H6" (at 358.14 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole_Pad" (at 358.14 55.88 90)
@@ -2518,9 +2488,6 @@
     (pin "1" (uuid fcf75db1-4882-4285-8177-eb2b72bf03f2))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "H2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "H6") (unit 1)
         )
@@ -2536,7 +2503,7 @@
   (symbol (lib_id "Device:C") (at 170.815 206.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89c3cde2-9ced-4ec4-9d15-8717a754e8ed)
-    (property "Reference" "C15" (at 174.625 205.74 0)
+    (property "Reference" "C17" (at 174.625 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 174.625 208.28 0)
@@ -2552,9 +2519,6 @@
     (pin "2" (uuid 43d83d26-a03d-4240-9154-b9c8b40e22a0))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "C15") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "C17") (unit 1)
         )
@@ -2575,7 +2539,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 207.01 147.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d2bd178-a338-4f97-a475-321d9b400812)
-    (property "Reference" "J4" (at 208.28 147.955 0)
+    (property "Reference" "J5" (at 208.28 147.955 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 208.28 150.495 0)
@@ -2593,9 +2557,6 @@
     (pin "4" (uuid 4bf6368b-bd04-434d-8be0-81c74aa398b4))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "J4") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "J5") (unit 1)
         )
@@ -2616,7 +2577,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 359.41 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 958cf644-40b2-4b54-93a6-2a6b13b4de7a)
-    (property "Reference" "H1" (at 358.14 43.815 90)
+    (property "Reference" "H5" (at 358.14 43.815 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole_Pad" (at 358.14 46.355 90)
@@ -2631,9 +2592,6 @@
     (pin "1" (uuid ff10c937-5ba8-4461-a438-9e62251119bd))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "H1") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "H5") (unit 1)
         )
@@ -2649,7 +2607,7 @@
   (symbol (lib_id "power:+3.3V") (at 198.755 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c2e1cb1-41f9-446e-9185-bb85647fa1b0)
-    (property "Reference" "#PWR017" (at 198.755 147.32 0)
+    (property "Reference" "#PWR030" (at 198.755 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 198.755 139.7 0)
@@ -2664,9 +2622,6 @@
     (pin "1" (uuid e6dca3a0-41dd-4ba2-b8c3-4f4832f9c5f1))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR030") (unit 1)
         )
@@ -2687,7 +2642,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 359.41 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc9aa6e8-9034-4ad4-94b1-66e515795639)
-    (property "Reference" "H3" (at 358.14 62.865 90)
+    (property "Reference" "H7" (at 358.14 62.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole_Pad" (at 358.14 65.405 90)
@@ -2702,9 +2657,6 @@
     (pin "1" (uuid 9cbe7426-866f-42b7-9950-689ec7dae10d))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "H3") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "H7") (unit 1)
         )
@@ -2720,7 +2672,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 205.74 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c050d282-3e34-42be-9d17-b721ac9df972)
-    (property "Reference" "JP1" (at 205.74 203.2 0)
+    (property "Reference" "JP2" (at 205.74 203.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_POW_EN" (at 206.375 198.12 0)
@@ -2736,9 +2688,6 @@
     (pin "2" (uuid c6e6807a-4497-474a-a306-3892d6ebb324))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "JP1") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "JP2") (unit 1)
         )
@@ -2754,7 +2703,7 @@
   (symbol (lib_id "power:GND") (at 368.935 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d100fc1b-fd3e-49a6-9778-be10e1f64a49)
-    (property "Reference" "#PWR012" (at 368.935 86.36 0)
+    (property "Reference" "#PWR032" (at 368.935 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.935 84.455 0)
@@ -2769,9 +2718,6 @@
     (pin "1" (uuid e1f4895a-3d06-4e71-b967-6298df8ce6f2))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR032") (unit 1)
         )
@@ -2792,7 +2738,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 217.805 224.79 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d667428d-f881-4267-ac44-1132e36f0d13)
-    (property "Reference" "TP2" (at 222.25 222.885 90)
+    (property "Reference" "TP4" (at 222.25 222.885 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 222.25 225.425 90)
@@ -2807,9 +2753,6 @@
     (pin "1" (uuid c10f0c5d-ade5-41df-aee1-3899aea05ac9))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "TP2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "TP4") (unit 1)
         )
@@ -2825,7 +2768,7 @@
   (symbol (lib_id "Device:R") (at 238.76 215.265 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd13de22-ef06-4018-86c6-e6818c41dae1)
-    (property "Reference" "R7" (at 241.3 215.9 90)
+    (property "Reference" "R15" (at 241.3 215.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 236.22 215.265 90)
@@ -2841,9 +2784,6 @@
     (pin "2" (uuid 9c30fe50-f8b1-4da2-95e5-e34422a1bceb))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "R7") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "R15") (unit 1)
         )
@@ -2864,7 +2804,7 @@
   (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 184.15 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeb928f9-f958-4f8f-9a33-9f5911019844)
-    (property "Reference" "U2" (at 184.15 194.31 0)
+    (property "Reference" "U6" (at 184.15 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMS1117-3.3" (at 184.15 196.85 0)
@@ -2881,9 +2821,6 @@
     (pin "3" (uuid 40b8f84b-ee2d-42d1-9b76-da30f0196c7b))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "U2") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "U6") (unit 1)
         )
@@ -2904,7 +2841,7 @@
   (symbol (lib_id "power:+3.3V") (at 267.335 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2e14b94-4020-4fa0-8b7f-0df3e405182e)
-    (property "Reference" "#PWR021" (at 267.335 209.55 0)
+    (property "Reference" "#PWR06" (at 267.335 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 267.335 201.93 0)
@@ -2919,9 +2856,6 @@
     (pin "1" (uuid 0b4a7196-4d4b-4683-a412-6f958897c021))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR06") (unit 1)
         )
@@ -2942,7 +2876,7 @@
   (symbol (lib_id "power:GND") (at 203.2 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6da9729-92d8-469a-a6bf-b9f4e18a0257)
-    (property "Reference" "#PWR013" (at 203.2 131.445 0)
+    (property "Reference" "#PWR033" (at 203.2 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 129.54 0)
@@ -2957,9 +2891,6 @@
     (pin "1" (uuid 3cf8c150-88c1-48b5-b698-7217f074a6e7))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "#PWR033") (unit 1)
         )
@@ -2980,7 +2911,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 359.41 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6f8617f-5f90-4946-9feb-03b26d869315)
-    (property "Reference" "H4" (at 358.14 72.39 90)
+    (property "Reference" "H8" (at 358.14 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole_Pad" (at 358.14 74.93 90)
@@ -2995,9 +2926,6 @@
     (pin "1" (uuid cf54fe64-fe6a-4ea6-ab1d-7cc7055cba84))
     (instances
       (project "EPS_PDB"
-        (path "/b6081578-ab04-44e2-a71a-4911a5b750e4/95d860c3-22f4-48ba-853b-285b9bd8dc22"
-          (reference "H4") (unit 1)
-        )
         (path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
           (reference "H8") (unit 1)
         )
