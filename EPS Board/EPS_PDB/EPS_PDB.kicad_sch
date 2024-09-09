@@ -4939,7 +4939,7 @@
 		)
 		(uuid "db41985b-8c0c-4e4e-84e8-750213829a1b")
 	)
-	(text "TEST EDIT"
+	(text "TEST EDIT 02"
 		(exclude_from_sim no)
 		(at 18.796 62.992 0)
 		(effects
