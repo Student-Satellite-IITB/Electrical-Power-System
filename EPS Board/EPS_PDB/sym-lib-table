@@ -5,4 +5,6 @@
   (lib (name "LTC3624_3.3")(type "KiCad")(uri "../../Libraries/PDB_components/LTC3624EMSE-3.3PBF/LTC3624_3.3.kicad_sym")(options "")(descr ""))
   (lib (name "LM5000-3MTCX")(type "KiCad")(uri "../../Libraries/PDB_components/LM5000-3MTCX/LM5000-3MTCX.kicad_sym")(options "")(descr ""))
   (lib (name "AD7708BRUZ")(type "KiCad")(uri "../../Libraries/PDB_components/AD7708BRUZ/AD7708BRUZ.kicad_sym")(options "")(descr ""))
+  (lib (name "SN65HVD256D")(type "KiCad")(uri "../../Libraries/PDB_components/SN65HVD256D/KiCADv6/2024-09-10_18-39-56.kicad_sym")(options "")(descr ""))
+
 )
