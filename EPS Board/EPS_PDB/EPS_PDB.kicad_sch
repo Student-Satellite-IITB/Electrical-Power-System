@@ -3698,16 +3698,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 73.025) (xy 109.22 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa5dbe3-784f-4a49-bc89-5d1e9f487fba")
-	)
-	(wire
-		(pts
 			(xy 342.265 162.56) (xy 356.235 162.56)
 		)
 		(stroke
@@ -3838,6 +3828,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 72.39) (xy 130.175 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339533da-66b5-4172-848b-97c2e19e66a6")
+	)
+	(wire
+		(pts
 			(xy 215.9 149.225) (xy 222.885 149.225)
 		)
 		(stroke
@@ -3888,7 +3888,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 205.74) (xy 293.37 205.74)
+			(xy 288.925 207.01) (xy 300.355 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 205.105) (xy 288.29 205.74)
+			(xy 288.925 202.565) (xy 288.925 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4188,6 +4188,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 165.1) (xy 356.235 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d879888-111f-4dee-9bc0-5e65bf3558ac")
+	)
+	(wire
+		(pts
 			(xy 214.63 191.135) (xy 214.63 194.31)
 		)
 		(stroke
@@ -4195,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "7fbe5dde-3d15-44b5-a8e9-6d06912bde7c")
+	)
+	(wire
+		(pts
+			(xy 336.55 149.86) (xy 356.235 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8071bf15-1d28-4ab1-aa2b-76e31bb92344")
 	)
 	(wire
 		(pts
@@ -4215,16 +4235,6 @@
 			(type default)
 		)
 		(uuid "82f48597-0326-4f54-93e1-41289fbc79d3")
-	)
-	(wire
-		(pts
-			(xy 116.205 72.39) (xy 116.205 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8388137f-d972-44f4-a576-ba3f10ee5b10")
 	)
 	(polyline
 		(pts
@@ -4285,6 +4295,16 @@
 			(type default)
 		)
 		(uuid "8c82dade-0192-4752-aad2-a18d8cc29502")
+	)
+	(wire
+		(pts
+			(xy 294.005 162.56) (xy 306.705 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8a567d-133b-4bc6-b6ea-1123e1a39f2a")
 	)
 	(wire
 		(pts
@@ -4395,16 +4415,6 @@
 			(type default)
 		)
 		(uuid "b2373e46-ea6a-45e6-9c95-e56151802d79")
-	)
-	(wire
-		(pts
-			(xy 117.475 72.39) (xy 116.205 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2400457-1948-47d6-a358-6472abc5bd80")
 	)
 	(wire
 		(pts
@@ -4798,6 +4808,16 @@
 	)
 	(wire
 		(pts
+			(xy 319.405 162.56) (xy 329.565 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52ff29c-7ed9-4933-a74a-aa37bb2d8c39")
+	)
+	(wire
+		(pts
 			(xy 216.535 194.31) (xy 214.63 194.31)
 		)
 		(stroke
@@ -5094,6 +5114,17 @@
 			(justify left bottom)
 		)
 		(uuid "04d40af8-02fc-4c57-9142-cb0819ea852f")
+	)
+	(label "HEARTBEAT_OBC"
+		(at 336.55 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0622cd6d-c94c-4b26-8bbf-75050bd67636")
 	)
 	(label "VBUS"
 		(at 375.285 124.46 0)
@@ -5513,6 +5544,17 @@
 		)
 		(uuid "896da398-3354-49e8-b610-5b3c8dacaa27")
 	)
+	(label "HEARTBEAT_ADCS"
+		(at 336.55 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a1c4a0e-785f-486e-8bea-6d03b66dd53f")
+	)
 	(label "SWCLK"
 		(at 215.9 149.225 0)
 		(fields_autoplaced yes)
@@ -5611,6 +5653,17 @@
 			(justify left bottom)
 		)
 		(uuid "a1675c42-1a1b-4705-be25-9c1462e4b41f")
+	)
+	(label "3V3_EPS"
+		(at 290.195 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c09c72-3228-4950-99dc-ee28707fbe7c")
 	)
 	(label "VBUS"
 		(at 297.18 124.46 0)
@@ -5810,6 +5863,17 @@
 		)
 		(uuid "e5ea3eec-3a77-46d5-b0d6-39b64caaf912")
 	)
+	(label "3V3_EPS"
+		(at 294.005 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6411963-1265-4389-ba4f-6d16373edafb")
+	)
 	(label "UART1_TX"
 		(at 294.005 134.62 0)
 		(fields_autoplaced yes)
@@ -5822,7 +5886,7 @@
 		(uuid "e663a6d7-a334-40d8-84eb-b2a24f83b773")
 	)
 	(label "I2C1_SCL"
-		(at 109.22 73.025 180)
+		(at 130.175 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5853,6 +5917,17 @@
 			(justify right bottom)
 		)
 		(uuid "ed32c500-7086-48ed-b15e-8df731cd5b49")
+	)
+	(label "3V3_EPS"
+		(at 329.565 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee19208c-b741-4b19-b141-bd4fb3dd1fa6")
 	)
 	(label "GND"
 		(at 325.755 127 0)
@@ -5922,7 +5997,7 @@
 	)
 	(global_label "3V3_EPS"
 		(shape input)
-		(at 293.37 205.74 0)
+		(at 300.355 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5932,7 +6007,7 @@
 		)
 		(uuid "8949be8e-bd9f-4e4d-8bc7-da904bbaacb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.3795 205.74 0)
+			(at 311.3645 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +8099,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 288.29 205.105 0)
+		(at 288.925 202.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8033,7 +8108,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e14b94-4020-4fa0-8b7f-0df3e405182e")
 		(property "Reference" "#PWR08"
-			(at 288.29 208.915 0)
+			(at 288.925 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8117,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 288.29 201.295 0)
+			(at 288.925 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 205.105 0)
+			(at 288.925 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 205.105 0)
+			(at 288.925 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 205.105 0)
+			(at 288.925 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
