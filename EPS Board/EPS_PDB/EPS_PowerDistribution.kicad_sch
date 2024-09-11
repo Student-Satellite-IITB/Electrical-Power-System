@@ -3809,6 +3809,16 @@
 	)
 	(wire
 		(pts
+			(xy 338.455 138.43) (xy 349.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8e63d6-5811-4081-b243-7bc9b9f1a4a8")
+	)
+	(wire
+		(pts
 			(xy 148.59 73.66) (xy 148.59 72.39)
 		)
 		(stroke
@@ -4086,6 +4096,16 @@
 			(type solid)
 		)
 		(uuid "428f742a-d977-4314-9ee1-56591f757988")
+	)
+	(wire
+		(pts
+			(xy 338.455 140.97) (xy 349.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43603989-3c72-4df6-bb7d-d435c9aa1141")
 	)
 	(wire
 		(pts
@@ -4496,6 +4516,16 @@
 			(type solid)
 		)
 		(uuid "82108b67-c2b0-4ae1-9c23-7b2972c972ee")
+	)
+	(wire
+		(pts
+			(xy 331.47 156.21) (xy 331.47 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f1d8cb-1c31-4561-b506-1b8233574199")
 	)
 	(wire
 		(pts
@@ -5029,6 +5059,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 156.21) (xy 331.47 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b8ca67-3fb0-4409-85b2-83a5c97049f0")
+	)
+	(wire
+		(pts
 			(xy 80.01 115.57) (xy 80.01 114.3)
 		)
 		(stroke
@@ -5203,6 +5243,16 @@
 		)
 		(uuid e5063fd2-acfb-47dc-8f6b-656a165c1b7a)
 	)
+	(text "Reference Voltage IC"
+		(exclude_from_sim no)
+		(at 326.39 168.275 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1adf3f24-d756-45d3-b5f0-a7bf50b2c346")
+	)
 	(text "VOLTAGE CONVERTER/REGULATOR"
 		(exclude_from_sim no)
 		(at 181.864 96.012 0)
@@ -5229,6 +5279,17 @@
 		)
 		(uuid "343f53df-9f14-4647-bab9-325bb9ecefb4")
 	)
+	(text "Reminder to use 1206 caps\non 12V lines"
+		(exclude_from_sim no)
+		(at 302.895 73.025 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left bottom)
+		)
+		(uuid "97592733-3d94-460b-ab87-fdf92bee5c0a")
+	)
 	(text "EPS DISTRIBUTION & REGULATION UNIT"
 		(exclude_from_sim no)
 		(at 19.05 26.67 0)
@@ -5241,6 +5302,26 @@
 			(justify left bottom)
 		)
 		(uuid "b1c41d6a-dc09-456d-b861-b50413b3cfde")
+	)
+	(text "VDDA Filtering"
+		(exclude_from_sim no)
+		(at 330.835 133.985 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c059ee2f-ee07-427b-809b-298759818c92")
+	)
+	(text "https://community.st.com/t5/missing-articles/how-can-i-output-a-clock-signal-to-the-stm32-s-mco-pin/td-p/49583"
+		(exclude_from_sim no)
+		(at 354.33 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9ac2d97-6210-48ce-9fad-0890e19ad1c3")
 	)
 	(text "CURRENT LIMITER"
 		(exclude_from_sim no)
@@ -5654,7 +5735,7 @@
 		)
 		(uuid "00481807-09d3-4d02-a64f-f56469ac1500")
 	)
-	(hierarchical_label "XTAL1_ADC"
+	(hierarchical_label "CLK_IN_ADC"
 		(shape input)
 		(at 349.25 161.29 180)
 		(fields_autoplaced yes)
@@ -5690,7 +5771,7 @@
 		)
 		(uuid "0a4b4455-4114-47ee-b666-06afc541673b")
 	)
-	(hierarchical_label "XTAL2_ADC"
+	(hierarchical_label "CLK_OUT_ADC"
 		(shape output)
 		(at 394.97 146.05 0)
 		(fields_autoplaced yes)
@@ -5726,7 +5807,7 @@
 		)
 		(uuid "0eeeb37d-b826-4a2f-83c8-a200965af321")
 	)
-	(hierarchical_label "CS_ADC"
+	(hierarchical_label "SPI_CS"
 		(shape input)
 		(at 349.25 146.05 180)
 		(fields_autoplaced yes)
@@ -5870,18 +5951,6 @@
 		)
 		(uuid "35f3fd55-44f4-4d09-b4ca-e1b0d1f4d63e")
 	)
-	(hierarchical_label "AVDD_ADC"
-		(shape input)
-		(at 349.25 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fd2922a-8ecd-4c4c-b055-acbd15d48f33")
-	)
 	(hierarchical_label "5V_OBC"
 		(shape output)
 		(at 143.51 148.59 0)
@@ -5930,19 +5999,7 @@
 		)
 		(uuid "573036fd-3a2a-4081-9efe-f99eb2f18233")
 	)
-	(hierarchical_label "REFN_ADC"
-		(shape input)
-		(at 349.25 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ed118ab-5997-492f-9c15-6f60278ba9ac")
-	)
-	(hierarchical_label "DIN_ADC"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 349.25 151.13 180)
 		(fields_autoplaced yes)
@@ -5953,18 +6010,6 @@
 			(justify right)
 		)
 		(uuid "64b1e8a8-ff47-4ecf-9a16-2be15289ac9f")
-	)
-	(hierarchical_label "AINCOM_ADC"
-		(shape input)
-		(at 349.25 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77909b73-bfa5-45b2-9df2-fe199fbecf3f")
 	)
 	(hierarchical_label "EN_3V3_ADCS"
 		(shape input)
@@ -5990,18 +6035,6 @@
 		)
 		(uuid "7bdc6068-fc8e-4ff2-b3fb-34801cd166fd")
 	)
-	(hierarchical_label "DVDD_ADC"
-		(shape input)
-		(at 349.25 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7cf6196e-4382-467b-8589-baa280b2145b")
-	)
 	(hierarchical_label "RESET_ADC"
 		(shape input)
 		(at 349.25 153.67 180)
@@ -6014,7 +6047,7 @@
 		)
 		(uuid "86bc57f2-4610-4f99-b8d1-f0d97ed19b69")
 	)
-	(hierarchical_label "SCLK_ADC"
+	(hierarchical_label "SPI_SCLK"
 		(shape input)
 		(at 349.25 158.75 180)
 		(fields_autoplaced yes)
@@ -6122,7 +6155,7 @@
 		)
 		(uuid "b6b41ec7-6746-4b7b-924b-664213bb80c6")
 	)
-	(hierarchical_label "DOUT_ADC"
+	(hierarchical_label "SPI_MISO"
 		(shape output)
 		(at 394.97 143.51 0)
 		(fields_autoplaced yes)
@@ -6193,18 +6226,6 @@
 			(justify right)
 		)
 		(uuid "f5a9f957-4d5f-4432-beea-48aca8dc233d")
-	)
-	(hierarchical_label "REFP_ADC"
-		(shape input)
-		(at 349.25 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe1c2160-68f8-498e-8676-bda5ebfe6fb2")
 	)
 	(symbol
 		(lib_id "EPS_Schematic_v2-eagle-import:GND-EARTH")
@@ -8259,7 +8280,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41e27d18-5a29-4f6a-8939-c46ad70d941a")
 		(property "Reference" "#PWR038"
 			(at 331.47 156.21 0)
@@ -8271,7 +8291,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 331.47 154.94 0)
+			(at 331.47 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,6 +9288,71 @@
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 331.47 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d997d4-164f-4f03-b035-097f0ead2248")
+		(property "Reference" "#PWR040"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 331.47 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 331.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6260cd2-a183-4d3a-b2d8-30d5f138e3d2")
+		)
+		(instances
+			(project "EPS_PDB"
+				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4/2d9f4680-6d7b-4671-a50c-25972cd78742"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

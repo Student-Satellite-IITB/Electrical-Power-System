@@ -16216,6 +16216,16 @@
 		)
 		(uuid "1a2191d3-b34f-4f54-a031-2fea82fc241d")
 	)
+	(text "FLT_3V3_EPS\n4X SPI\n4x ADC GPIO\n2x ADC CLK\n\nPENDING"
+		(exclude_from_sim no)
+		(at 377.19 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fde905b-ca35-4bcb-823a-fa2aec0db7e8")
+	)
 	(text "Bulk capacitance"
 		(exclude_from_sim no)
 		(at 27.94 73.025 90)
