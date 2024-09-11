@@ -3519,6 +3519,10 @@
 		(uuid "10b6760d-ed6e-4962-88e1-3a02e2cc2eca")
 	)
 	(no_connect
+		(at 354.965 137.795)
+		(uuid "13db9bb6-d2fb-4772-871a-674349978dc0")
+	)
+	(no_connect
 		(at 273.05 173.355)
 		(uuid "6956a412-885a-44b9-8dc7-5cb7c8891cac")
 	)
@@ -3537,6 +3541,10 @@
 	(no_connect
 		(at 273.05 170.815)
 		(uuid "b6b1c2bf-3b44-4497-80a3-b37f64ef3d59")
+	)
+	(no_connect
+		(at 325.755 137.795)
+		(uuid "ea292481-4de9-4e14-a248-1173f10971c9")
 	)
 	(wire
 		(pts
@@ -3577,16 +3585,6 @@
 			(type default)
 		)
 		(uuid "0228bc9a-0d43-461a-8d8d-94438615fab6")
-	)
-	(wire
-		(pts
-			(xy 321.31 150.495) (xy 335.28 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b8b77b-f610-44d1-be83-c670eebf41fd")
 	)
 	(wire
 		(pts
@@ -3697,6 +3695,16 @@
 			(type default)
 		)
 		(uuid "17f2c358-2549-4fc9-949e-3dbabd1814b4")
+	)
+	(wire
+		(pts
+			(xy 321.31 163.195) (xy 335.28 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b525e9c-5d19-4756-8eb4-e1ed03e43aed")
 	)
 	(wire
 		(pts
@@ -3837,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "37336f15-2015-4426-8ae6-e6ef465d4929")
+	)
+	(wire
+		(pts
+			(xy 321.31 160.655) (xy 335.28 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9b202c-6010-4fb9-8506-0135cfc56a9a")
 	)
 	(wire
 		(pts
@@ -4207,6 +4225,16 @@
 			(type default)
 		)
 		(uuid "86f8cbe3-3821-473c-846a-7166c69f872d")
+	)
+	(wire
+		(pts
+			(xy 347.98 160.655) (xy 359.41 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8869affc-7f14-4d31-9066-a87fbd193945")
 	)
 	(wire
 		(pts
@@ -4587,26 +4615,6 @@
 			(type default)
 		)
 		(uuid "da57ddea-079c-4ef3-8d52-bfc35bbbc045")
-	)
-	(wire
-		(pts
-			(xy 347.98 150.495) (xy 359.41 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd282f7-3baf-43eb-b906-8926df3515a9")
-	)
-	(wire
-		(pts
-			(xy 347.98 165.735) (xy 360.045 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd25421d-94ee-48fc-a2a2-6005931b3dd9")
 	)
 	(wire
 		(pts
@@ -5116,6 +5124,28 @@
 		)
 		(uuid "1b80e71f-3030-4792-b441-d9f060a49f03")
 	)
+	(label "3V3_ANT"
+		(at 325.755 132.715 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d18d614-1968-462e-a3e3-995f8e23ac0d")
+	)
+	(label "CS_ANT"
+		(at 325.755 137.795 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4a8513-07b2-492a-a49d-1131d076408b")
+	)
 	(label "GND"
 		(at 325.755 127.635 0)
 		(fields_autoplaced yes)
@@ -5128,6 +5158,17 @@
 		(uuid "2e026bdb-e2b9-4c68-abf9-87c371c6d9f8")
 	)
 	(label "12V_ADCS"
+		(at 321.31 163.195 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f92eee1-b521-4806-9d83-b799c864d829")
+	)
+	(label "12V_ADCS"
 		(at 360.045 163.195 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5137,6 +5178,17 @@
 			(justify right bottom)
 		)
 		(uuid "3008d8ab-4f3e-42cd-82f4-f3ed39f50b08")
+	)
+	(label "GND"
+		(at 354.965 130.175 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c35ffb4-c9d6-4335-9724-c31adf14c118")
 	)
 	(label "CAN_B_L"
 		(at 138.43 141.605 180)
@@ -5226,6 +5278,17 @@
 		)
 		(uuid "49c36634-3341-43b4-a3f8-66daa5748a23")
 	)
+	(label "DEPLOY_STATUS"
+		(at 354.965 135.255 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d69e3a1-6227-4b34-9d8f-3c2903edc279")
+	)
 	(label "GND"
 		(at 360.045 175.895 180)
 		(fields_autoplaced yes)
@@ -5236,6 +5299,28 @@
 			(justify right bottom)
 		)
 		(uuid "542af9df-31db-4cbd-86de-ffdca49c03d5")
+	)
+	(label "DEPLOY"
+		(at 325.755 135.255 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "550978d2-4282-42f2-a780-3e7ffd1f7273")
+	)
+	(label "5V_OBC"
+		(at 321.31 160.655 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56665dda-0f41-4a2f-8d3d-3256c2749c75")
 	)
 	(label "I2C2_SCL"
 		(at 139.7 96.52 180)
@@ -5347,17 +5432,6 @@
 		)
 		(uuid "750997e2-1c93-43e9-b88d-425ea37d5fb4")
 	)
-	(label "12V_ADCS"
-		(at 360.045 165.735 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81d5ad46-5f0f-4097-a299-daed68ade259")
-	)
 	(label "UART1_RTS"
 		(at 273.05 137.795 0)
 		(fields_autoplaced yes)
@@ -5425,7 +5499,7 @@
 		(uuid "926c273c-7eee-4930-ae2e-c4693bcea9b1")
 	)
 	(label "3V3_ANT"
-		(at 360.68 137.16 0)
+		(at 325.755 130.175 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5434,6 +5508,17 @@
 			(justify left bottom)
 		)
 		(uuid "953e30aa-de5b-44c6-bce5-fddbb5105536")
+	)
+	(label "5V_OBC"
+		(at 359.41 160.655 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9cd0587e-e51a-4bf4-873c-db7fc3c6eb2b")
 	)
 	(label "VBUS"
 		(at 304.8 125.095 0)
@@ -5445,17 +5530,6 @@
 			(justify left bottom)
 		)
 		(uuid "9df96f2e-0285-404d-9828-495f1965ef17")
-	)
-	(label "5V_OBC"
-		(at 359.41 150.495 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ebe5fc5-b59e-45d7-a09f-4fad8397bb01")
 	)
 	(label "GND"
 		(at 276.225 150.495 0)
@@ -5544,17 +5618,6 @@
 			(justify right bottom)
 		)
 		(uuid "c812998e-6adf-4b21-9116-2b6f8ccc4bde")
-	)
-	(label "5V_OBC"
-		(at 321.31 150.495 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c92cfd0c-fdec-4db3-9dbd-548ce83bb2c4")
 	)
 	(label "RST_CC"
 		(at 273.05 130.175 0)
@@ -5742,6 +5805,17 @@
 			(justify right bottom)
 		)
 		(uuid "fa3f28c4-92e7-471c-94e4-73f5b95009fb")
+	)
+	(label "GND"
+		(at 354.965 132.715 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc643375-30a1-4ebc-b106-735e63e114b8")
 	)
 	(label "GND"
 		(at 321.31 153.035 0)
