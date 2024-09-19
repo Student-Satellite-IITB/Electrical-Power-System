@@ -5075,16 +5075,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 186.69) (xy 346.075 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8e63d6-5811-4081-b243-7bc9b9f1a4a8")
-	)
-	(wire
-		(pts
 			(xy 128.27 234.95) (xy 128.27 231.775)
 		)
 		(stroke
@@ -6165,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 126.365) (xy 245.11 126.365)
+			(xy 240.03 126.365) (xy 245.11 126.365)
 		)
 		(stroke
 			(width 0)
@@ -6695,13 +6685,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.905) (xy 99.06 131.445)
+			(xy 99.06 127.635) (xy 99.06 131.445)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae0dc9eb-de7d-4429-9e98-aec2966e881a")
+	)
+	(wire
+		(pts
+			(xy 334.645 186.69) (xy 346.075 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef8a19f-9f16-426d-8dcc-913c44984a12")
 	)
 	(wire
 		(pts
@@ -6952,6 +6952,16 @@
 			(type default)
 		)
 		(uuid "c6bf91c4-0674-433c-b46e-fd1064015c6a")
+	)
+	(wire
+		(pts
+			(xy 334.645 181.61) (xy 334.645 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78432cb-fb58-48eb-bca8-d67f6ffa69e8")
 	)
 	(wire
 		(pts
@@ -9586,16 +9596,6 @@
 			"AoFgGiMCAYFAIBAIpjEiEBAIBAKBYBrzP4av56JcFlvoAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "Need to connect 3.3V or 3.3VA to the 3.3V bus??"
-		(exclude_from_sim no)
-		(at 219.964 37.338 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "08fc90c2-d16f-4dba-8564-b78b10cf430b")
-	)
 	(text "VOLTAGE CONVERTER/REGULATOR"
 		(exclude_from_sim no)
 		(at 202.184 120.777 0)
@@ -9622,6 +9622,16 @@
 		)
 		(uuid "21a9d269-8a5d-4b47-b4f1-9f2709c02240")
 	)
+	(text "5V_EPS"
+		(exclude_from_sim no)
+		(at 77.47 167.005 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "331a5e5b-1d90-46e4-97e0-e309d55c1703")
+	)
 	(text "ADC (TELEMETRY)"
 		(exclude_from_sim no)
 		(at 344.678 166.624 0)
@@ -9634,6 +9644,66 @@
 			(justify left bottom)
 		)
 		(uuid "343f53df-9f14-4647-bab9-325bb9ecefb4")
+	)
+	(text "12V_ADCS"
+		(exclude_from_sim no)
+		(at 77.47 247.015 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "350b0816-66a8-4766-92ef-67b5bdb2c858")
+	)
+	(text "5V_OBC"
+		(exclude_from_sim no)
+		(at 146.05 167.005 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "40996a97-079c-48f0-87c8-885b95b5fb86")
+	)
+	(text "12V REGULATOR"
+		(exclude_from_sim no)
+		(at 215.9 127 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "57b63df4-e187-4081-8a21-3d43fc2cd84a")
+	)
+	(text "5V_ADCS"
+		(exclude_from_sim no)
+		(at 77.47 207.645 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "71b439ad-7fcb-4c76-a566-fda04815d0c7")
+	)
+	(text "5V_COMM"
+		(exclude_from_sim no)
+		(at 146.05 207.645 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7446c81e-992b-4aeb-8f13-136811b74393")
+	)
+	(text "3V3_ANT"
+		(exclude_from_sim no)
+		(at 146.05 83.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7ae1c307-6599-40a1-a42f-3470d61b8294")
 	)
 	(text "CURRENT LIMITER \nEXTRA CONNECTIONS"
 		(exclude_from_sim no)
@@ -9660,6 +9730,36 @@
 			(justify left bottom)
 		)
 		(uuid "868d6fc1-839e-40f3-970f-228f6255c012")
+	)
+	(text "3.3V on PDB comes from 3V3_EPS"
+		(exclude_from_sim no)
+		(at 107.95 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89bf8ec2-7e64-4fd6-b916-9197eac3a936")
+	)
+	(text "3V3_EPS"
+		(exclude_from_sim no)
+		(at 77.47 124.46 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8a3e1519-5df2-4749-9539-aec6af635db6")
+	)
+	(text "5V_PAY"
+		(exclude_from_sim no)
+		(at 146.685 125.73 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8be02c50-6f47-4dc9-bd1b-aeaf7ec04aca")
 	)
 	(text "VDDA Filtering"
 		(exclude_from_sim no)
@@ -9716,6 +9816,16 @@
 		)
 		(uuid "b1c41d6a-dc09-456d-b861-b50413b3cfde")
 	)
+	(text "3V3 REGULATOR"
+		(exclude_from_sim no)
+		(at 219.71 207.645 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b84cba93-5907-4946-993c-cc6e4bb1d37e")
+	)
 	(text "REF pin consumes 0.5uA current"
 		(exclude_from_sim no)
 		(at 426.72 146.685 0)
@@ -9735,6 +9845,26 @@
 			)
 		)
 		(uuid "d2c7f38c-2eff-44be-b82b-88dc5bae8fe2")
+	)
+	(text "5V REGULATOR"
+		(exclude_from_sim no)
+		(at 233.045 250.19 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d8068fe5-e5f6-4e4d-bf0a-d872a8a8c4c8")
+	)
+	(text "3V3_ADCS"
+		(exclude_from_sim no)
+		(at 78.105 83.185 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f7600304-f2e7-4465-b579-274b47507cd5")
 	)
 	(text "15mA > (3.3-1.25)/R > 10uA (min input current)\n136.67 Ohm < R < 205 kOhm"
 		(exclude_from_sim no)
@@ -10508,7 +10638,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 242.57 126.365 180)
+		(at 240.03 126.365 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12645,16 +12775,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 334.01 186.69 0)
+		(at 334.645 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "253a8383-5690-40a9-894f-5dca5a1d9cf3")
 		(property "Reference" "#PWR048"
-			(at 334.01 190.5 0)
+			(at 334.645 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12663,7 +12792,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 334.01 182.88 0)
+			(at 334.645 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +12800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 186.69 0)
+			(at 334.645 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12680,7 +12809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 186.69 0)
+			(at 334.645 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 186.69 0)
+			(at 334.645 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14176,7 +14305,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 99.06 128.905 0)
+		(at 99.06 127.635 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14185,7 +14314,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a2fc27e-48aa-4a10-8198-7f6de99287ae")
 		(property "Reference" "#PWR051"
-			(at 99.06 132.715 0)
+			(at 99.06 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +14323,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 99.06 125.095 0)
+			(at 99.06 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 128.905 0)
+			(at 99.06 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14211,7 +14340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 128.905 0)
+			(at 99.06 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14220,7 +14349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 128.905 0)
+			(at 99.06 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)

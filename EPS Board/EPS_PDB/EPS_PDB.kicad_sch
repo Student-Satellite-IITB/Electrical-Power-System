@@ -3771,7 +3771,7 @@
 		(uuid "ffb6a601-b74b-41be-af56-a9c7c1464226")
 	)
 	(no_connect
-		(at 216.535 116.84)
+		(at 216.535 118.11)
 		(uuid "005df17a-df31-45ae-9f79-adc1475aa1c1")
 	)
 	(no_connect
@@ -3923,7 +3923,7 @@
 		(uuid "a4ddd4ca-484d-4cc9-9d73-92e32106d6fa")
 	)
 	(no_connect
-		(at 226.695 121.92)
+		(at 226.695 123.19)
 		(uuid "a8604474-4778-4756-8c5c-ef609293ba8e")
 	)
 	(no_connect
@@ -4434,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.295 111.76) (xy 216.535 111.76)
+			(xy 201.295 113.03) (xy 216.535 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4714,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 102.87) (xy 207.01 106.68)
+			(xy 207.01 104.14) (xy 207.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4724,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.295 114.3) (xy 216.535 114.3)
+			(xy 201.295 115.57) (xy 216.535 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4854,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 121.92) (xy 224.155 124.46)
+			(xy 224.155 123.19) (xy 224.155 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5664,7 +5664,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 106.68) (xy 216.535 106.68)
+			(xy 207.01 107.95) (xy 216.535 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6055,7 +6055,7 @@
 		(uuid 99d74460-d412-442a-abf6-5167e8aeebda)
 	)
 	(image
-		(at 27.94 27.94)
+		(at 27.94 27.305)
 		(scale 0.0435908)
 		(uuid "a0879d86-e5bb-462d-9ce8-3c08069c0e9f")
 		(data "iVBORw0KGgoAAAANSUhEUgAABeAAAAYDCAYAAACYepq1AAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9"
@@ -15392,7 +15392,7 @@
 	)
 	(text "USB Connector"
 		(exclude_from_sim no)
-		(at 217.17 102.235 0)
+		(at 217.17 103.505 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15465,7 +15465,7 @@
 	)
 	(text "Serial Wire Debug Connector"
 		(exclude_from_sim no)
-		(at 210.185 137.16 0)
+		(at 212.09 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16230,7 +16230,7 @@
 		(uuid "3f78652f-69cd-4b8f-acef-bacf56683f17")
 	)
 	(label "USB_D+"
-		(at 201.295 111.76 0)
+		(at 201.295 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16516,7 +16516,7 @@
 		(uuid "6efc0a81-ca66-4f16-9999-f117c64d469d")
 	)
 	(label "USB_D-"
-		(at 201.295 114.3 0)
+		(at 201.295 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17622,7 +17622,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 207.01 102.87 0)
+		(at 207.01 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17631,7 +17631,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a6b594e-ae47-4bc1-889b-15fa0c9d1b74")
 		(property "Reference" "#PWR02"
-			(at 207.01 106.68 0)
+			(at 207.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,7 +17640,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 207.01 99.695 0)
+			(at 207.01 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17648,7 +17648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 102.87 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,7 +17657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 102.87 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17666,7 +17666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 102.87 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18528,7 +18528,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 224.155 111.76 0)
+		(at 224.155 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18538,7 +18538,7 @@
 		(fields_autoplaced yes)
 		(uuid "67367e1c-3c98-4dbb-8270-baac51d02dbe")
 		(property "Reference" "J1"
-			(at 230.505 111.125 0)
+			(at 230.505 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18547,7 +18547,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 230.505 113.665 0)
+			(at 230.505 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18556,7 +18556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.345 113.03 0)
+			(at 220.345 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18565,7 +18565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.345 113.03 0)
+			(at 220.345 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18574,7 +18574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.155 111.76 0)
+			(at 224.155 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19902,7 +19902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.155 124.46 0)
+		(at 224.155 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19911,7 +19911,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6da9729-92d8-469a-a6bf-b9f4e18a0257")
 		(property "Reference" "#PWR03"
-			(at 224.155 130.81 0)
+			(at 224.155 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19920,7 +19920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 125.7299 0)
+			(at 226.06 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19929,7 +19929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.155 124.46 0)
+			(at 224.155 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19938,7 +19938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.155 124.46 0)
+			(at 224.155 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19947,7 +19947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.155 124.46 0)
+			(at 224.155 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
