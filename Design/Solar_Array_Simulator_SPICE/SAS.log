@@ -1,0 +1,8 @@
+Questionable use of curly braces in "let r_act = {start_r}"
+    Error: undefined symbol in: "[start_r]"
+Questionable use of curly braces in "let r_act = {r_act} + delta_r"
+    Error: undefined symbol in: "[r_act]"
+LTspice 24.0.12 for Windows
+Circuit: SAS
+Start Time: Fri Jul 19 13:22:29 2024
+Fatal Error: Multiple instances of "Let"

@@ -1,0 +1,41 @@
+SAS
+Vsupply vp gnd DC 15
+
+D1 q2_b vp zener
+R2 q2_b gnd 1000
+
+R1 vp q1_e 2
+
+Q1 vout q1_b q1_e gen_pnp
+Q2 gnd q2_b q1_b gen_pnp
+
+D2 vout di1 shape_d
+D3 di1 di2 shape_d
+D4 di2 di3 shape_d
+D5 di3 di4 shape_d
+D6 di4 di5 shape_d
+D7 di5 gnd shape_d
+
+Rload vout vtestp 10
+Vtest vtestp gnd DC 0
+
+.model gen_pnp pnp
+.model zener D (IS=1e-14 N=1.0 BV=5 IBV=1e-3)
+.model shape_d D (IS=1e-14 N=1.0 BV=1.4 IBV=1e-3 VJ = 2)
+
+.control
+let start_r = 1m
+let stop_r = 10
+let delta_r = 1.05
+let r_act = start_r
+* loop
+write op.txt
+while r_act le stop_r
+    alter rload r_act
+    op
+    wrdata op.txt r_act i(Vtest) v(vout) v(q2_b) v(q1_b) v(q1_e)
+    set appendwrite
+    let r_act = r_act * delta_r
+end
+.endc
+.end

@@ -1,0 +1,49 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\random\SchBuilder.asc
+Start Time: Fri Jul 19 14:30:57 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Error on line 1252 : .control
+	 Unknown control card
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node di1.  This node is used by d2.
+WARNING: Less than two connections to node di2.  This node is used by d3.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:      d1          d2          d3          d4          d5
+Model:    zener      shape_d     shape_d     shape_d     shape_d
+Id:     -9.68e-03   -2.62e-37   -1.63e-32   -1.69e-32   -1.49e-32
+Vd:     -5.06e+00    0.00e+00   -1.63e-20   -1.69e-20   -1.49e-20
+Req:     2.67e+00    7.21e+11    7.21e+11    7.21e+11    7.21e+11
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q1          q2
+Model:    gen_pnp     gen_pnp
+Ib:      -8.13e-03   -8.05e-05
+Ic:      -8.13e-01   -8.05e-03
+Vbe:     -9.48e-01   -8.28e-01
+Vbc:      1.08e+01    9.76e+00
+Vce:     -1.17e+01   -1.06e+01
+BetaDC:   1.00e+02    1.00e+02
+Gm:       3.14e+01    3.11e-01
+Rpi:      3.18e+00    3.21e+02
+Rx:       0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00
+Cbe:      0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   1.00e+02    1.00e+02
+Cbx:      0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00
+
+
+Total elapsed time: 0.093 seconds.
+
