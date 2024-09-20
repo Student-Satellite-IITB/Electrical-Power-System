@@ -18156,6 +18156,17 @@
 		)
 		(uuid "9f35be12-78b8-4539-84e0-29e1e88e9953")
 	)
+	(text "RESISTOR SIZING"
+		(exclude_from_sim no)
+		(at 128.905 23.495 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "acb8d558-0ed3-4173-91ee-48d0a244888f")
+	)
 	(text "PINOUT"
 		(exclude_from_sim no)
 		(at 196.85 159.385 0)
