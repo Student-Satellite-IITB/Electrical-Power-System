@@ -5144,6 +5144,10 @@
 		(at 95.25 123.825)
 		(uuid "f72470fa-2bf6-47e9-88e1-cb0786bf513e")
 	)
+	(no_connect
+		(at 140.97 98.425)
+		(uuid "ff442972-9bac-4945-8a9f-60ff22bc8b1a")
+	)
 	(wire
 		(pts
 			(xy 31.75 71.12) (xy 31.75 72.39)
@@ -5866,6 +5870,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 177.8) (xy 367.665 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3e3ad4-8ae2-4908-a475-c40cd6b64aad")
+	)
+	(wire
+		(pts
 			(xy 120.65 217.805) (xy 120.65 220.345)
 		)
 		(stroke
@@ -6133,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "6120773f-cb1f-494e-8ea7-d78a3497b5a9")
+	)
+	(wire
+		(pts
+			(xy 374.65 175.26) (xy 367.665 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627bc1af-92eb-41bd-9b8d-6bd92d3f7113")
 	)
 	(polyline
 		(pts
@@ -18731,6 +18755,17 @@
 		)
 		(uuid "5c6bb75d-36d5-4901-8e69-80a73a59e1cd")
 	)
+	(label "USB_D+"
+		(at 367.665 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e69b60a-415c-4aa3-9d3b-beaf5416e4b6")
+	)
 	(label "SPI_CS"
 		(at 78.74 139.065 0)
 		(fields_autoplaced yes)
@@ -18807,6 +18842,17 @@
 			(justify right bottom)
 		)
 		(uuid "65e68f04-945b-4ae7-99dc-621a02ab0a84")
+	)
+	(label "USB_D-"
+		(at 367.665 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6acc2448-d81b-42e6-973d-9716494278df")
 	)
 	(label "CAN_TX"
 		(at 316.865 100.965 180)
@@ -19512,6 +19558,18 @@
 		)
 		(uuid "32d2c6b7-bd36-42ae-9cc6-7d53f6f527ba")
 	)
+	(hierarchical_label "USB_D+"
+		(shape input)
+		(at 374.65 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33364d6e-ce31-41ef-83e8-640d706d7c21")
+	)
 	(hierarchical_label "EN_5V_COMM"
 		(shape input)
 		(at 330.2 175.895 180)
@@ -19883,6 +19941,18 @@
 			(justify right)
 		)
 		(uuid "f9c7f78b-5df8-48af-9f65-98f3633b22a4")
+	)
+	(hierarchical_label "USB_D-"
+		(shape input)
+		(at 374.65 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0d447e-4b21-4408-85c2-8d533b565b25")
 	)
 	(hierarchical_label "FLT_3V3_ADCS"
 		(shape input)

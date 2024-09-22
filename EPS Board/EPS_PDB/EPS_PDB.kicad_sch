@@ -4234,6 +4234,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 59.055) (xy 114.3 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164a6c68-e27f-49f8-90ef-e6e3f72b2863")
+	)
+	(wire
+		(pts
 			(xy 301.625 207.01) (xy 288.29 207.01)
 		)
 		(stroke
@@ -5144,6 +5154,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 51.435) (xy 131.445 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b505b1-d307-4864-b436-970d28bb7502")
+	)
+	(wire
+		(pts
 			(xy 364.49 149.86) (xy 375.92 149.86)
 		)
 		(stroke
@@ -5814,6 +5834,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 48.895) (xy 131.445 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e348e12d-5288-4eab-ad4f-e26badafa43d")
+	)
+	(wire
+		(pts
 			(xy 242.57 205.74) (xy 247.65 205.74)
 		)
 		(stroke
@@ -5841,6 +5871,16 @@
 			(type default)
 		)
 		(uuid "e8c0e8c2-02b5-4db3-adcc-10f096553a02")
+	)
+	(wire
+		(pts
+			(xy 110.49 59.055) (xy 110.49 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b64dcb-7b1a-439d-9e59-fd9f5219c572")
 	)
 	(wire
 		(pts
@@ -16119,6 +16159,17 @@
 		)
 		(uuid "31a56750-329a-4cd6-9e4b-06c26f309cac")
 	)
+	(label "USB_D-"
+		(at 131.445 48.895 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32e5b638-ecf1-4e03-b516-d755e285fb42")
+	)
 	(label "5V_ADCS"
 		(at 161.29 203.2 180)
 		(fields_autoplaced yes)
@@ -17406,6 +17457,17 @@
 		)
 		(uuid "fa3f28c4-92e7-471c-94e4-73f5b95009fb")
 	)
+	(label "USB_D+"
+		(at 131.445 51.435 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb426040-6f9c-4ed8-9a89-4e31c6e95d7d")
+	)
 	(label "GND"
 		(at 371.475 121.92 0)
 		(fields_autoplaced yes)
@@ -18555,7 +18617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-AB_Molex_47590-0001"
+		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
 			(at 220.345 114.3 0)
 			(effects
 				(font
@@ -20925,6 +20987,26 @@
 				(justify right)
 			)
 			(uuid "49565ddd-a324-48f3-aa81-efd90be4b4f1")
+		)
+		(pin "USB_D-" input
+			(at 110.49 59.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5663f96b-089b-4603-a759-42f7d1f388db")
+		)
+		(pin "USB_D+" input
+			(at 114.3 59.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a241821b-3ad4-43c1-bc4a-5f3b6f760139")
 		)
 		(instances
 			(project "EPS_PDB"

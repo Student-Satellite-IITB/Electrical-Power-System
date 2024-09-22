@@ -5775,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 127) (xy 245.11 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584ab933-5ae5-4ec3-b82b-012d0f74deeb")
+	)
+	(wire
+		(pts
 			(xy 101.6 193.04) (xy 101.6 193.675)
 		)
 		(stroke
@@ -5872,6 +5882,16 @@
 			(type default)
 		)
 		(uuid "60f38e3d-9570-4439-aa27-44fa909d33fa")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 226.695 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ffce18-46c6-47f2-be30-ed726665a4d8")
 	)
 	(wire
 		(pts
@@ -6002,6 +6022,16 @@
 			(type default)
 		)
 		(uuid "6b3d65d7-e487-43e7-ab87-69b9e57ee7f5")
+	)
+	(wire
+		(pts
+			(xy 236.855 127) (xy 245.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcd64fe-7cb9-4c57-a7ca-42ac8a5a445c")
 	)
 	(wire
 		(pts
@@ -6152,16 +6182,6 @@
 			(type solid)
 		)
 		(uuid "7fb3dace-f873-4058-925b-de2bb004fc6d")
-	)
-	(wire
-		(pts
-			(xy 240.03 126.365) (xy 245.11 126.365)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe9bb86-05c2-45b1-8640-4bac858300dc")
 	)
 	(wire
 		(pts
@@ -9677,7 +9697,7 @@
 	)
 	(text "12V REGULATOR"
 		(exclude_from_sim no)
-		(at 215.9 127 0)
+		(at 267.335 126.365 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10007,6 +10027,17 @@
 			(justify left bottom)
 		)
 		(uuid "1e81a121-2d48-43ac-bab0-440a4cb1b4e3")
+	)
+	(label "VIN"
+		(at 245.11 131.445 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31c46b06-cfdd-452b-a0f5-6a5f0bb65e2a")
 	)
 	(label "ILM_3V3_ANT"
 		(at 342.9 224.79 180)
@@ -10338,6 +10369,17 @@
 		)
 		(uuid "db4d2eb4-cc03-44cc-9747-57ea89b7189d")
 	)
+	(label "12V"
+		(at 243.84 151.765 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbe31c16-dbe0-42a7-b653-fa13085de15f")
+	)
 	(label "5V_BUS"
 		(at 55.88 173.355 180)
 		(fields_autoplaced yes)
@@ -10658,7 +10700,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 240.03 126.365 180)
+		(at 219.71 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11688,7 +11730,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_5V_OBC"
 			(at 133.35 198.755 0)
 			(effects
 				(font
@@ -13476,7 +13518,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_5V_ADCS"
 			(at 64.77 239.395 0)
 			(effects
 				(font
@@ -14896,7 +14938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT 3V3_ADCS"
 			(at 64.77 114.935 0)
 			(effects
 				(font
@@ -15303,7 +15345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_12V_ADCS"
 			(at 63.5 278.765 0)
 			(effects
 				(font
@@ -15638,7 +15680,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_3V3_EPS"
 			(at 64.77 156.845 0)
 			(effects
 				(font
@@ -16560,7 +16602,7 @@
 	)
 	(symbol
 		(lib_id "EPS_Schematic_v2-eagle-import:R-USCHIP-0805(2012-METRIC)")
-		(at 245.11 131.445 90)
+		(at 231.775 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16568,7 +16610,7 @@
 		(dnp no)
 		(uuid "788a1724-c010-4e87-8aef-d9ae1e18623b")
 		(property "Reference" "R25"
-			(at 242.3414 131.445 0)
+			(at 231.775 129.7686 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16576,7 +16618,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 248.412 131.445 0)
+			(at 229.87 124.46 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16584,7 +16626,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 245.11 131.445 0)
+			(at 231.775 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +16635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 131.445 0)
+			(at 231.775 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 131.445 0)
+			(at 231.775 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17647,7 +17689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_5V_EPS"
 			(at 64.77 198.755 0)
 			(effects
 				(font
@@ -18448,7 +18490,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_5V_PAY"
 			(at 133.35 156.845 0)
 			(effects
 				(font
@@ -19085,7 +19127,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_5V_COMM"
 			(at 133.35 239.395 0)
 			(effects
 				(font
@@ -19621,7 +19663,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS259621DDAT"
+		(property "Value" "TPS259621DDAT_3V3_ANT"
 			(at 133.35 114.935 0)
 			(effects
 				(font
