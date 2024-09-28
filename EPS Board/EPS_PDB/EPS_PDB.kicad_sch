@@ -15621,17 +15621,6 @@
 		)
 		(uuid "740901d1-af08-4ea9-b43d-9cf6dfa9b34e")
 	)
-	(text "VBUS from USB Connector (nom. +5V)"
-		(exclude_from_sim no)
-		(at 177.8 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "767df911-2295-41ea-b862-fa2b0ef2375c")
-	)
 	(text "REMOVE (ADD) BEFORE FLIGHT"
 		(exclude_from_sim no)
 		(at 372.11 210.82 0)
@@ -17690,7 +17679,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a6b594e-ae47-4bc1-889b-15fa0c9d1b74")
 		(property "Reference" "#PWR02"
 			(at 207.01 107.95 0)
@@ -17701,12 +17689,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 207.01 100.965 0)
+		(property "Value" "VUSB"
+			(at 205.105 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18071,7 +18060,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35e95f86-d919-4b2f-80c8-9ed074a1cc44")
 		(property "Reference" "#PWR09"
 			(at 184.785 207.01 0)
@@ -18082,8 +18070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 184.785 200.025 0)
+		(property "Value" "VUSB"
+			(at 185.42 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
