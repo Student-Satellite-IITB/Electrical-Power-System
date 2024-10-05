@@ -18489,6 +18489,17 @@
 		)
 		(uuid "2fda1a33-0b3c-4f75-bfcb-707672a9ee25")
 	)
+	(label "PMOS2_GATE"
+		(at 288.29 98.425 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "323933a7-c4ab-427d-99bf-18ea6b4df01c")
+	)
 	(label "EN_12V_ADCS"
 		(at 375.92 200.025 0)
 		(fields_autoplaced yes)
@@ -19159,6 +19170,17 @@
 			(justify right bottom)
 		)
 		(uuid "a8273a31-6993-4788-a176-036c318b25fc")
+	)
+	(label "PMOS1_GATE"
+		(at 287.02 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82dedfc-0b45-42ea-8ae7-24be320690f8")
 	)
 	(label "CAN_SW_A"
 		(at 84.455 156.845 0)
@@ -21009,7 +21031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1100"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P"
 			(at 59.69 88.265 0)
 			(effects
 				(font
