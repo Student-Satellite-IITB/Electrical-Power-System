@@ -254,108 +254,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3747,22 +3645,10 @@
 		(uuid "4d2389d6-26cf-4936-9d51-aa16efe2a3ec")
 	)
 	(junction
-		(at 238.76 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e66d970-ee3d-4ad0-883b-50c1a472d9e2")
-	)
-	(junction
 		(at 243.205 234.315)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a03c8e50-1e80-465c-afdc-7170872ea897")
-	)
-	(junction
-		(at 216.535 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df72e8f3-d93e-4cd7-8f5a-38108c7c5db3")
 	)
 	(junction
 		(at 216.535 234.315)
@@ -4970,16 +4856,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 254) (xy 238.76 258.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ccab22-5482-4256-adaa-9f5787201a8c")
-	)
-	(wire
-		(pts
 			(xy 36.83 145.415) (xy 55.245 145.415)
 		)
 		(stroke
@@ -5067,16 +4943,6 @@
 			(type default)
 		)
 		(uuid "7d23aac4-0c53-4656-b7ae-411b80c91571")
-	)
-	(wire
-		(pts
-			(xy 216.535 225.425) (xy 216.535 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbe5dde-3d15-44b5-a8e9-6d06912bde7c")
 	)
 	(wire
 		(pts
@@ -5287,16 +5153,6 @@
 			(type default)
 		)
 		(uuid "a11d4b7f-61ab-4ae0-b242-6ce7314af86f")
-	)
-	(wire
-		(pts
-			(xy 261.62 254) (xy 238.76 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b4a80e-c95f-4553-b8c8-6c289eef29d8")
 	)
 	(wire
 		(pts
@@ -5820,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 254) (xy 216.535 254)
+			(xy 216.535 254) (xy 261.62 254)
 		)
 		(stroke
 			(width 0)
@@ -5977,16 +5833,6 @@
 			(type default)
 		)
 		(uuid "f4786a2f-fa9d-4ca4-93df-15e256ff0e1b")
-	)
-	(wire
-		(pts
-			(xy 240.665 258.445) (xy 238.76 258.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4af861e-00d1-478d-bdc0-5059471aae0e")
 	)
 	(wire
 		(pts
@@ -18901,79 +18747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 216.535 225.425 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45638f27-c333-4c5c-bdc7-0f7192686ccf")
-		(property "Reference" "TP1"
-			(at 213.995 221.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 213.995 224.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 211.455 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 211.455 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.535 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44c7feb4-71fd-4b2b-b170-883f840a21a0")
-		)
-		(instances
-			(project "EPS_PDB"
-				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "EPS_ControlUnit"
-				(path "/b7b561f9-f781-4e48-9d8e-6eb1511b4888"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x26_Odd_Even")
 		(at 307.34 144.78 0)
 		(unit 1)
@@ -20603,79 +20376,6 @@
 			(project "IITBSSP_EPS"
 				(path "/fc724aa3-a409-4633-b632-796d885435d4/7d2d06ea-8b9f-4f5f-976f-8924d235bb29"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 240.665 258.445 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d667428d-f881-4267-ac44-1132e36f0d13")
-		(property "Reference" "TP2"
-			(at 245.11 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 245.11 259.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 240.665 253.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.665 253.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.665 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c10f0c5d-ade5-41df-aee1-3899aea05ac9")
-		)
-		(instances
-			(project "EPS_PDB"
-				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-			(project "EPS_ControlUnit"
-				(path "/b7b561f9-f781-4e48-9d8e-6eb1511b4888"
-					(reference "TP4")
 					(unit 1)
 				)
 			)

@@ -5033,10 +5033,6 @@
 		(uuid "1567351a-030b-444f-afec-861a3e02f19d")
 	)
 	(no_connect
-		(at 140.97 121.285)
-		(uuid "22b3f923-8dd7-4ffb-a58b-8d227a42d5d1")
-	)
-	(no_connect
 		(at 140.97 194.945)
 		(uuid "27593be4-8cac-4ea0-a71e-dc7bf2ed0929")
 	)
@@ -6697,6 +6693,16 @@
 			(type default)
 		)
 		(uuid "a02d79a7-522a-400b-9843-5bf09b81171e")
+	)
+	(wire
+		(pts
+			(xy 140.97 121.285) (xy 153.67 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04f41a8-fe7f-441f-8871-cde49ffc1ae1")
 	)
 	(wire
 		(pts
@@ -18884,6 +18890,17 @@
 			(justify right bottom)
 		)
 		(uuid "6acc2448-d81b-42e6-973d-9716494278df")
+	)
+	(label "RESET_ADC"
+		(at 153.67 121.285 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b94146e-906f-415d-be1b-69ff0e8aec2b")
 	)
 	(label "CAN_TX"
 		(at 316.865 100.965 180)

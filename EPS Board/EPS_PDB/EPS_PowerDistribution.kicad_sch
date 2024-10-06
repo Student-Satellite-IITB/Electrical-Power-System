@@ -6912,6 +6912,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.205 213.36) (xy 116.205 211.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba408ea1-ce25-4d8c-8224-ee49857a0dd8")
+	)
+	(wire
+		(pts
 			(xy 339.725 192.405) (xy 339.725 190.5)
 		)
 		(stroke
@@ -12137,6 +12147,16 @@
 		)
 		(uuid "21a9d269-8a5d-4b47-b4f1-9f2709c02240")
 	)
+	(text "WHY ARE ALL PULLED UP TO 3V3?"
+		(exclude_from_sim no)
+		(at 215.9 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2297e16c-fbd2-4ee6-aa83-27e8814846cc")
+	)
 	(text "VIN = 7.4 V\nVOUT = 3.3 V\nIOUT (Max) = 2A\nIOUT (Min) = 0A\nf = 2.25 MHz"
 		(exclude_from_sim no)
 		(at 237.49 269.875 0)
@@ -16982,7 +17002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.205 213.995 0)
+		(at 116.205 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16990,7 +17010,7 @@
 		(dnp no)
 		(uuid "4bb7ef4a-f8e2-4b0a-af7d-5947767f9cec")
 		(property "Reference" "#SUPPLY013"
-			(at 116.205 213.995 0)
+			(at 116.205 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,7 +17019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.205 217.805 0)
+			(at 116.205 217.17 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17007,7 +17027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.205 213.995 0)
+			(at 116.205 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17016,7 +17036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.205 213.995 0)
+			(at 116.205 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +17045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.205 213.995 0)
+			(at 116.205 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
