@@ -9,4 +9,5 @@
   (lib (name "LTC3624IDD-25PBF")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/PDB_components/LTC3624IDD-25PBF")(options "")(descr ""))
   (lib (name "AD7708BRUZ")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/PDB_components/AD7708BRUZ")(options "")(descr ""))
   (lib (name "PC104_BUS")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/PDB_components/PC104_BUS")(options "")(descr ""))
+  (lib (name "Inductor-WE-XHMI-5050")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/Inductor-WE-XHMI-5050.pretty")(options "")(descr ""))
 )
