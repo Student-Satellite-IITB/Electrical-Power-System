@@ -11,4 +11,5 @@
   (lib (name "PC104_BUS")(type "KiCad")(uri "${KIPRJMOD} /../../Libraries/PDB_components/PC104_BUS")(options "")(descr ""))
   (lib (name "Inductor-WE-XHMI-5050")(type "KiCad")(uri "${KIPRJMOD} /../../Libraries/Inductor-WE-XHMI-5050.pretty")(options "")(descr ""))
   (lib (name "74439344047")(type "KiCad")(uri "${KIPRJMOD} /../../Libraries/74439344047")(options "")(descr ""))
+  (lib (name "IITBSSP Logo")(type "KiCad")(uri "C:/Users/Ameya/Documents/IITBSSP/GitHub/Electrical-Power-System/Libraries/IITBSSP Logo")(options "")(descr ""))
 )
