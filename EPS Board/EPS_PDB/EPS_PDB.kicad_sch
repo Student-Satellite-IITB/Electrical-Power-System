@@ -18163,7 +18163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a6b594e-ae47-4bc1-889b-15fa0c9d1b74")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 191.77 74.295 0)
 			(effects
 				(font
@@ -18214,7 +18214,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -18242,7 +18242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9c6213-9fe3-4eb7-af12-5b4d46f59b2a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 288.29 215.9 0)
 			(effects
 				(font
@@ -18293,7 +18293,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18320,7 +18320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd1aeff-4871-499d-8c53-d34b5fa3d0ec")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 253.6825 227.965 0)
 			(effects
 				(font
@@ -18372,7 +18372,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18400,7 +18400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2df7a572-5497-4896-bb19-02df13ab5d46")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 318.135 201.93 0)
 			(effects
 				(font
@@ -18450,7 +18450,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -18465,7 +18465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e9b1770-300c-476c-ad4a-8f22c1d86a42")
-		(property "Reference" "JP6"
+		(property "Reference" "JP1"
 			(at 208.28 205.994 0)
 			(effects
 				(font
@@ -18517,7 +18517,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "JP6")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -18611,7 +18611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32f92140-c217-45e6-adfc-e1da1fc69255")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 229.1715 197.104 0)
 			(effects
 				(font
@@ -18663,7 +18663,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18678,7 +18678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35e95f86-d919-4b2f-80c8-9ed074a1cc44")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 185.42 235.585 0)
 			(effects
 				(font
@@ -18728,7 +18728,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18755,7 +18755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56e87e62-35d0-4318-82f0-d91fdcdd106d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 308.61 107.315 0)
 			(effects
 				(font
@@ -18957,7 +18957,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18973,7 +18973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b52a72b-664e-42e6-9498-c540df7af1e4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 193.675 262.89 0)
 			(effects
 				(font
@@ -19024,7 +19024,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19052,7 +19052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ffb465f-a81a-4a07-bab1-dc2ada8a824a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 243.205 232.41 0)
 			(effects
 				(font
@@ -19102,7 +19102,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19224,7 +19224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b4a271c-49a7-4ca6-aec7-2868ab9db66d")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 358.14 107.95 0)
 			(effects
 				(font
@@ -19426,7 +19426,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19664,7 +19664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2bd178-a338-4f97-a475-321d9b400812")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 225.425 139.065 0)
 			(effects
 				(font
@@ -19724,7 +19724,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -19752,7 +19752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f1231b-5884-4ac0-9e7d-467c1354351e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR010"
 			(at 251.714 211.836 0)
 			(effects
 				(font
@@ -19803,7 +19803,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR053")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19968,7 +19968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9b3fa1-54a2-4b35-aa43-62c9781a02f9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR07"
 			(at 221.234 198.374 0)
 			(effects
 				(font
@@ -20018,7 +20018,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR054")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -20105,7 +20105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd390a76-ac5a-4854-816f-ff8ef5bb3b96")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 318.135 215.9 0)
 			(effects
 				(font
@@ -20155,7 +20155,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -20170,7 +20170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c050d282-3e34-42be-9d17-b721ac9df972")
-		(property "Reference" "JP1"
+		(property "Reference" "JP3"
 			(at 228.6 236.855 0)
 			(effects
 				(font
@@ -20222,7 +20222,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -20244,7 +20244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4da73cd-b3c6-404c-b0aa-e1863be97da0")
-		(property "Reference" "R41"
+		(property "Reference" "R1"
 			(at 242.443 200.914 90)
 			(effects
 				(font
@@ -20296,7 +20296,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "R41")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20312,7 +20312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d100fc1b-fd3e-49a6-9778-be10e1f64a49")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 368.935 86.36 0)
 			(effects
 				(font
@@ -20363,7 +20363,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -20391,7 +20391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6c7cec4-fac6-4d94-b86b-214de08727ac")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR06"
 			(at 193.294 197.866 0)
 			(effects
 				(font
@@ -20441,7 +20441,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR052")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -20457,7 +20457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd13de22-ef06-4018-86c6-e6818c41dae1")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 264.16 249.555 90)
 			(effects
 				(font
@@ -20509,7 +20509,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20620,7 +20620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e14b94-4020-4fa0-8b7f-0df3e405182e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 288.29 201.93 0)
 			(effects
 				(font
@@ -20670,7 +20670,7 @@
 		(instances
 			(project "EPS_PDB"
 				(path "/b6081578-ab04-44e2-a71a-4911a5b750e4"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
