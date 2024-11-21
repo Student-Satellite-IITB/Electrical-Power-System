@@ -16202,7 +16202,7 @@
 		)
 		(uuid "d082d6eb-8fb2-4029-a74e-10cd40d5e8c9")
 	)
-	(text "M2"
+	(text "M3"
 		(exclude_from_sim no)
 		(at 339.725 55.88 0)
 		(effects

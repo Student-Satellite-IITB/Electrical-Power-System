@@ -7296,7 +7296,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 72.39) (xy 163.195 76.2)
+			(xy 163.195 72.39) (xy 163.195 75.565)
 		)
 		(stroke
 			(width 0)
@@ -18104,7 +18104,7 @@
 	)
 	(text "Switching between\nCAN_A and CAN_B"
 		(exclude_from_sim no)
-		(at 245.11 46.355 0)
+		(at 254 50.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18205,28 +18205,6 @@
 		)
 		(uuid "9e13f9ad-02f5-40c5-bce6-458466f63999")
 	)
-	(text "GPIO PINS ASSIGNMENT (x18)\nIN PROGRESS"
-		(exclude_from_sim no)
-		(at 36.83 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f35be12-78b8-4539-84e0-29e1e88e9953")
-	)
-	(text "RESISTOR SIZING"
-		(exclude_from_sim no)
-		(at 128.905 23.495 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "acb8d558-0ed3-4173-91ee-48d0a244888f")
-	)
 	(text "PINOUT"
 		(exclude_from_sim no)
 		(at 196.85 159.385 0)
@@ -18250,17 +18228,6 @@
 			(justify left bottom)
 		)
 		(uuid "bfa7e45c-eba8-4c69-bfec-19501ec97973")
-	)
-	(text "IN PROGRESS"
-		(exclude_from_sim no)
-		(at 246.38 50.165 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3e2272c-2aa5-4bb7-b733-ec50f4e4d10e")
 	)
 	(text "VDDA Filtering"
 		(exclude_from_sim no)
@@ -23754,7 +23721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.195 76.2 0)
+		(at 163.195 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23763,7 +23730,7 @@
 		(fields_autoplaced yes)
 		(uuid "d69fc698-f7b4-4b31-8e00-97ee77170d85")
 		(property "Reference" "#PWR024"
-			(at 163.195 82.55 0)
+			(at 163.195 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23772,7 +23739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 77.4699 0)
+			(at 165.1 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23781,7 +23748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.195 76.2 0)
+			(at 163.195 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23790,7 +23757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 76.2 0)
+			(at 163.195 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23799,7 +23766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.195 76.2 0)
+			(at 163.195 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
