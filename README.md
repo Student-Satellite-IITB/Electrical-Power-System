@@ -8,7 +8,7 @@ Electrical Power subsystem for the IITBSSP CubeSat mission
 ![EPS Control Unit Development Board](/images/EPS_ControlUnit.png)
 
 Current status: 
-- EPS PFB and PMB sent for manufacturing
+- EPS PDB and PMB Assembly
 - Battery Unit Development Board
 - Power Distribution and Regulation Development Board
 - MATLAB/Simulink model of EPS in development
