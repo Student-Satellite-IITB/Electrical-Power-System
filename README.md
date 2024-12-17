@@ -4,8 +4,6 @@ This repository contains all software and hardware for the
 Electrical Power subsystem for the IITBSSP CubeSat mission
 
 ![EPS Power Distribution Board](/Images/EPS_PDB.png)
-![Solar Input Development Board](/Images/EPS_SolarInput.png)
-![EPS Control Unit Development Board](/Images/EPS_ControlUnit.png)
 
 Current status: 
 - EPS PDB and PMB Assembly
