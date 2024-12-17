@@ -27,6 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*.htm
 
 ## STM32CubeIDE gitignore begins here
 # Reference: https://shadyelectronics.com/how-to-use-github-with-stm32cubeide/
