@@ -1,0 +1,3 @@
+[submodule "Software/EPS-Software"]
+	path = Software/EPS-Software
+	url = https://github.com/Student-Satellite-IITB/EPS-Software.git
