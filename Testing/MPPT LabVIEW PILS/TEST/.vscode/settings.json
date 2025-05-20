@@ -1,0 +1,9 @@
+{
+    "stm32-for-vscode.openOCDPath": false,
+    "stm32-for-vscode.makePath": false,
+    "files.associations": {
+        "stm32l0xx_hal.h": "c",
+        "main.h": "c",
+        "mppt.h": "c"
+    }
+}

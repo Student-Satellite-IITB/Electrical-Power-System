@@ -1,0 +1,6 @@
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/CMakeFiles/TEST.dir
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/CMakeFiles/edit_cache.dir
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/CMakeFiles/rebuild_cache.dir
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/Ameya/Documents/ACADS/Sem 8/AE501 Virtual Instrumentation/TEST/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

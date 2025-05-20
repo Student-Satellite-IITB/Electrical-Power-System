@@ -24,7 +24,7 @@
 tic;
 %% INPUTS
 
-initialTime = datetime(2022,12,14,1,4,0);
+initialTime = datetime(2026,9,26,0,0,0);
 initialTimeJD = juliandate(initialTime);
 
 mu = 3.986e14; % Graviational constant of Earth
@@ -33,8 +33,8 @@ Re = 6378e03;  % Radius of Earth
 % Orbital Parameters
 sat.a = Re + 500e03;    % Semi-major axis [m]
 sat.e = 0;              % Eccentricity 
-sat.i = 97;             % Orbital Inclination [deg]
-sat.RAAN = 23;          % Right Ascension of Ascending Node [deg]
+sat.i = 50;             % Orbital Inclination [deg]
+sat.RAAN = 290;          % Right Ascension of Ascending Node [deg]
 sat.w = 0;              % Argument of Perigee [deg]
 sat.f = 0;              % True Anomaly [deg]
 
@@ -65,10 +65,7 @@ sat.omegaBO = [sat.p;sat.q;sat.r];
 sat.omegaON = [0;-sat.n;0];
 
 % omega B wrt N in B-frame
-sat.w1 = 0 +sat.p;
-sat.w2 = -sat.n+sat.q;
-sat.w3 = 0+ sat.r;
-sat.omegaBN = [sat.w1;sat.w2;sat.w3];
+sat.omegaBN = sat.omegaBO + sat.omegaON;
 
 initAngle = deg2rad(0);
 initAxis = [0;0;0];
@@ -82,20 +79,21 @@ sat.eta = 0.25;    % Efficiency of Solar Panels
 % np = Panel Normal unit vector in body frame
 % Ap = Panel Area [m^2]
 
-sat.np1 = [1;0;0];
-%sat.Ap1 = 0.7*10e-4;
-sat.Ap1 = 0.7*2*10e-4;
+% +X
+sat.np1 = [0;0;1];
+sat.Ap1 = 0.0070;
 
+% +Y
 sat.np2 = [0;1;0];
-%sat.Ap2 = 0.7*300e-4;
-sat.Ap2 = 2*0.7*300e-4;
+sat.Ap2 = 0.0210;
 
+% -Y
 sat.np3 = [0;-1;0];
-%sat.Ap3 = 0.7*300e-4;
-sat.Ap3 = 2*0.7*300e-4;
+sat.Ap3 = 0.0210;
 
-sat.np4 = [0;0;1];
-sat.Ap4 = 0.7*300e-4;
+% -Z
+sat.np4 = [1;0;0];
+sat.Ap4 = 0.0210;
 
 sat.SPnormals = [sat.np1, sat.np2, sat.np3,sat.np4];
 sat.SPareas = diag([sat.Ap1,sat.Ap2,sat.Ap3,sat.Ap4]);
@@ -150,7 +148,7 @@ grid on;
 % SATEL = satellite(sc,positionTT,Name = "Spacecraft");
 % 
 % % Launch a satellite scenario viewer
-% v = satelliteScenarioViewer(sc,CameraReferenceFrame = "ECEF");
+% v = satelliteScenarioViewer(sc,CameraReferenceFrame = "Inertial");
 % 
 % play(sc);
 
